@@ -55,3 +55,85 @@ export default {
   ],
 };
 ```
+
+## Linking
+
+You can easily add links to other documents within your documentation. There are a few ways to do this:
+
+Using Markdown syntax:
+
+You can use standard Markdown link syntax, referencing the document's ID (which is typically its file name without the extension):
+
+```md
+[Link to Another Document](another-doc-id)
+```
+
+Using the `@site` alias:
+
+Docusaurus provides an @site alias that represents the base directory of your site. This is useful for absolute paths:
+
+```md
+[Link to Another Document](/docs/another-doc-id)
+```
+
+Using relative paths:
+
+If you're linking to a document in the same directory or a subdirectory, you can use relative paths:
+
+```[Link to Document in Same Directory](./another-doc-id)
+[Link to Document in Subdirectory](./subdirectory/doc-id)
+[Link to Document in Parent Directory](../doc-id)
+```
+
+Using the `@docusaurus/Link` component:
+
+For more dynamic linking, especially in MDX files, you can use the Link component:
+
+```js
+import Link from '@docusaurus/Link';
+
+<Link to="/docs/another-doc-id">Link to Another Document</Link>
+
+```
+
+Linking to specific sections:
+
+You can link to specific headers within a document by adding a hash (#) followed by the header text, converted to kebab-case:
+
+```md
+[Link to Specific Section](another-doc-id#section-title)
+```
+
+Examples:
+Assuming you have a document structure like this:
+```
+docs/
+├── intro.md
+├── advanced/
+│ └── feature.md
+└── api/
+└── methods.md
+```
+
+You could link to these documents as follows:
+
+```md
+// In intro.md
+[Check out our advanced features](advanced/feature)
+[API Methods](api/methods)
+
+// In feature.md
+[Back to Intro](../intro)
+[API Methods](../api/methods)
+
+// In methods.md
+[Introduction](../intro)
+[Advanced Features](../advanced/feature#specific-feature)
+```
+
+Remember:
+The .md extension is not needed in the links.
+The links are case-sensitive.
+If you change a file name, make sure to update all links pointing to that file.
+
+These methods allow you to create a well-connected documentation structure in Docusaurus, enhancing navigation for your users.
