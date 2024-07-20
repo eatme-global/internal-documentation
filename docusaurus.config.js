@@ -35,15 +35,13 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/eatme-global/internal-documentation",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/eatme-global/internal-documentation",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -90,12 +88,16 @@ const config = {
               to: "/docs/intro",
             },
             {
+              label: "Tutorial",
+              to: "/docs/category/tutorial",
+            },
+            {
               label: "Development",
-              to: "/docs/dev",
+              to: "/docs/category/development",
             },
             {
               label: "QA",
-              to: "/docs/qa",
+              to: "/docs/category/qa",
             },
           ],
         },

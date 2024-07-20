@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# QA Load Testing with JMeter
+# Load Testing with JMeter
 
 ## Table of Contents
 
-- [QA Load Testing with JMeter](#qa-load-testing-with-jmeter)
+- [Load Testing with JMeter](./qa-load-testing.md)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Getting Started with JMeter](#getting-started-with-jmeter)
