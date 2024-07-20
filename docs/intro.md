@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Welcome to EatMe Global Documentation
+# Welcome
 
 Discover our comprehensive documentation and blog platform in just a few minutes!
 

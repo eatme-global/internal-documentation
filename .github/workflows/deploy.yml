@@ -23,13 +23,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'yarn'
+          cache: "yarn"
 
       - name: Install dependencies
         run: yarn install --immutable
 
       - name: Build website
         run: yarn build
+
+      - name: Add CNAME file
+        run: echo "docs.eatmeglobal.org" > build/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -41,3 +44,4 @@ jobs:
           user_email: "github-actions[bot]@users.noreply.github.com"
           commit_message: ${{ github.event.head_commit.message }}
           full_commit_message: ${{ github.event.head_commit.message }}
+          cname: docs.eatmeglobal.org
