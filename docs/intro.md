@@ -1,40 +1,47 @@
 ---
 sidebar_position: 1
-slug: /
 ---
 
-# Introduction
+# Tutorial Intro
 
-It's time to launch your documentation! Welcome to [Dhub](https://dhub.dev)'s open-source documentation template.
+Let's discover **Docusaurus in less than 5 minutes**.
 
-:::info
+## Getting Started
 
-[Dhub](https://dhub.dev) is a collaborative WYSIWYG editor for Docusaurus that enables both technical and non-technical users to efficiently and easily create and edit Docusaurus Markdown content.
+Get started by **creating a new site**.
 
-:::
+Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-![](/img/social-card.png)
+### What you'll need
 
-## Get started
+- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
+  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-Here's a couple of tips to get you started with [Dhub](https://dhub.dev):
+## Generate a new site
 
-1. Remember that everything on this page is editable (assuming you're in the editor). Type `/` to open the command menu and add images, code blocks and other components.
+Generate a new Docusaurus site using the **classic template**.
 
-2. With [Dhub](https://dhub.dev), you own your code. Click the `Push GitHub` button to create a GitHub repository for your project.
+The classic template will automatically be added to your project after you run the command:
 
-3. You can deploy your project to the web using [Vercel](https://vercel.com) or [Netlify](https://netlify.com) for free. Here are tutorials on how to deploy to [Vercel](https://vercel.com/guides/deploying-docusaurus-with-vercel) and to [Netlify](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/). Alternatively, you click the three dots at the top right corner, and then click the `Deloy to Vercel`.
+```bash
+npm init docusaurus@latest my-website classic
+```
 
-:::info Preview URL
+You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-Here's a link to see how this template looks like when deployed on the Web
+The command also installs all necessary dependencies you need to run Docusaurus.
 
-[https://template-docusaurus-docs.dhub.dev](https://template-docusaurus-docs.dhub.dev/)
+## Start your site
 
-:::
+Run the development server:
 
-## Docusaurus
+```bash
+cd my-website
+npm run start
+```
 
-This template is based on Meta's [Docusaurus](https://docusaurus.io/) framework. Docusaurus is a powerful tool for building content-centric websites, offering features such as translations, versioning, and content search.
+The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
-Explore [Docusaurus' documentation](https://docusaurus.io/docs) to learn more about its capabilities.&#x20;
+The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+
+Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
