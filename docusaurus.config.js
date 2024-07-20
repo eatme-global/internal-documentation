@@ -1,27 +1,20 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import { themes as prismThemes } from "prism-react-renderer";
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Documentation",
-  tagline: "Efficient documentation solutions for everyone.",
-  favicon: "img/favicon.png",
+  title: "EatMe",
+  tagline: "Internal Documentation",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://docs.eatmeglobal.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "your-organisation", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "eatme-global", // Usually your GitHub org/user name.
+  projectName: "internal-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -37,104 +30,92 @@ const config = {
   presets: [
     [
       "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
-          routeBasePath: "/",
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/dhub-dev/template-docusaurus-blog/tree/main",
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        },
         theme: {
           customCss: "./src/css/custom.css",
         },
-      }),
+      },
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
-      navbar: {
-        title: "Universal Docs",
-        items: [
-          {
-            "aria-label": "Discord Invite",
-            className: "navbar--discord-link",
-            href: "https://discord.gg/6qGnyrt7xy",
-            position: "right",
-          },
-          {
-            "aria-label": "GitHub Repository",
-            className: "navbar--github-link",
-            href: "https://github.com/dhub-dev/template-docusaurus-docs",
-            position: "right",
-          },
-        ],
+  themeConfig: {
+    image: "img/social-card.jpg",
+    navbar: {
+      title: "EatMe",
+      logo: {
+        alt: "EatMe logo",
+        src: "img/logo.svg",
       },
-      footer: {
-        style: "light",
-        links: [
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/dhub",
-              },
-              {
-                label: "Discord",
-                href: "https://discord.com/invite/6qGnyrt7xy",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/withdhub",
-              },
-            ],
-          },
-          {
-            title: "Docusaurus",
-            items: [
-              {
-                label: "Home",
-                href: "https://docusaurus.io",
-              },
-              {
-                label: "Documentation",
-                href: "https://docusaurus.io/docs/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "Dhub",
-            items: [
-              {
-                label: "Home",
-                href: "https://dhub.dev",
-              },
-              {
-                label: "Get in touch",
-                href: "mailto:hello@dhub.dev",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Blog Website, Inc. Built with Docusaurus, edited with Dhub`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+      items: [
+        {
+          type: "docSidebar",
+          sidebarId: "defaultSidebar",
+          position: "left",
+          label: "Docs",
+        },
+        {
+          to: "/blog",
+          label: "Blog",
+          position: "left",
+        },
+        {
+          href: "https://github.com/eatme-global",
+          label: "GitHub",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      links: [
+        {
+          title: "Docs",
+          items: [
+            {
+              label: "Intro",
+              to: "/docs/intro",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Blog",
+              to: "/blog",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/eatme-global",
+            },
+            {
+              label: "About Us",
+              href: "https://eatmeglobal.com",
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} EatMe. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  },
 };
 
 export default config;
