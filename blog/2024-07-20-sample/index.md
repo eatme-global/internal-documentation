@@ -23,6 +23,6 @@ The blog post date can be extracted from filenames, such as:
 - `2019-05-30-welcome/index.md`
 
 A blog post folder can be convenient to co-locate blog post images:
-![Sample Image](./sample.jpeg)
+![Sample Image](./sample.jpg)
 
 The blog supports tags as well. Tags should be added to `tags.yml` before using them.
