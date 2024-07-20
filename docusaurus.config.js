@@ -86,12 +86,12 @@ const config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/tutorial",
+              label: "Intro",
+              to: "/docs/intro",
             },
             {
               label: "Development",
-              to: "/docs/development",
+              to: "/docs/dev",
             },
             {
               label: "QA",
