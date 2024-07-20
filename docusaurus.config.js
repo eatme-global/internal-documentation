@@ -92,6 +92,23 @@ const config = {
           ],
         },
         {
+          title: "Social",
+          items: [
+            {
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/eatme-singapore",
+            },
+            {
+              label: "Facebook",
+              href: "https://www.facebook.com/EatMeGlobal",
+            },
+            {
+              label: "Instagram",
+              href: "https://www.instagram.com/eatme_srilanka",
+            },
+          ],
+        },
+        {
           title: "More",
           items: [
             {
