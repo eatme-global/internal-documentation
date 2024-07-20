@@ -2,46 +2,71 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to EatMe Global Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Discover our comprehensive documentation and blog platform in just a few minutes!
+
+## About This Website
+
+Welcome to https://docs.eatmeglobal.org, your one-stop resource for all EatMe Global documentation and internal blogs. This website serves as a central hub for knowledge sharing, collaboration, and communication across all departments.
+
+### Key Features
+
+1. **Documentation Hub**: Access all company documentation at https://docs.eatmeglobal.org/docs/
+2. **Internal Blog Platform**: Read and contribute to company blogs at https://docs.eatmeglobal.org/blogs
+3. **User-Friendly Editing**: Easy-to-use interface for creating and updating content
+4. **Automatic Deployment**: Changes go live quickly through our automated system
+
+## Who Should Use This Website?
+
+Everyone at EatMe Global! Whether you're in Development, Quality Assurance, Business Analysis, Project Management, Human Resources, or Marketing, this platform is designed for you to:
+
+- Find important information
+- Share knowledge
+- Contribute to documentation
+- Write and read internal blogs
 
 ## Getting Started
 
-Get started by **creating a new site**.
+### Accessing Documentation
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+1. Visit https://docs.eatmeglobal.org/docs/
+2. Browse through different sections relevant to your role or project
+3. Use the search function to find specific information quickly
 
-### What you'll need
+### Reading and Writing Blogs
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+1. Go to https://docs.eatmeglobal.org/blogs
+2. Explore existing blog posts from colleagues
+3. To write a blog, follow the "Create a Blog Post" tutorial in the documentation section
 
-## Generate a new site
+## How to Contribute
 
-Generate a new Docusaurus site using the **classic template**.
+We encourage everyone to contribute to our documentation and blog platform. Here's how:
 
-The classic template will automatically be added to your project after you run the command:
+1. **Request Access**: Contact IT for credentials to edit content on https://app.dhub.dev
+2. **Find the Right File**: Locate the document or blog post you want to edit
+3. **Make Your Changes**: Follow the tutorials in the docs section for guidance
+4. **Submit for Review**: Create a pull request directly from the dhub site
+5. **Automatic Deployment**: Approved changes will be automatically published to the live site
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Need Help?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+If you're new to documentation platforms or need assistance, don't worry! We have tutorials to guide you through every step:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Creating a new document
+- Writing a blog post
+- Managing document versions
+- Translating content
 
-## Start your site
+These tutorials are designed to be user-friendly, even if you're not technically inclined.
 
-Run the development server:
+## Why This Matters
 
-```bash
-cd my-website
-npm run start
-```
+By using and contributing to this documentation platform, you're helping to:
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+- Improve communication across departments
+- Ensure everyone has access to up-to-date information
+- Foster a culture of knowledge sharing and collaboration
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+We're excited to have you on board. Start exploring, learning, and contributing today!

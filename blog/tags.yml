@@ -3,6 +3,30 @@ qa:
   permalink: /qa
   description: QA practice related
 development:
-  label: development
+  label: Development
   permalink: /development
   description: Development practice related
+ba:
+  label: BA
+  permalink: /ba
+  description: Business Analyst practice related
+pm:
+  label: PM
+  permalink: /pm
+  description: Product Manager practice related
+automation:
+  label: Automation
+  permalink: /automation
+  description: Automation related
+git:
+  label: Git
+  permalink: /git
+  description: Git related
+react:
+  label: React
+  permalink: /react
+  description: React related
+rn:
+  label: React Native
+  permalink: /react-native
+  description: React Native related
