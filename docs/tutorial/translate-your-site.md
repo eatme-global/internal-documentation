@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Translate your site
+# Translate Documents
 
 Let's translate `docs/intro.md` to French.
 
@@ -39,7 +39,7 @@ Start your site on the French locale:
 npm run start -- --locale fr
 ```
 
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
+Your localized site is accessible at [https://docs.eatmeglobal.org/fr/](https://docs.eatmeglobal.org/fr/) and the `Getting Started` page is translated.
 
 :::caution
 

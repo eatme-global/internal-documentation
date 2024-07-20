@@ -54,10 +54,12 @@ We encourage everyone to contribute to our documentation and blog platform. Here
 
 If you're new to documentation platforms or need assistance, don't worry! We have tutorials to guide you through every step:
 
-- Creating a new document
-- Writing a blog post
-- Managing document versions
-- Translating content
+- [Create a Document](create-a-document)
+- [Markdown Features](markdown-features)
+- [Create a Blog Post](create-a-blog-post)
+- [Create a Page](create-a-page)
+- [Manage Docs Versions](manage-docs-versions)
+- [Translate Documents](translate-your-site)
 
 These tutorials are designed to be user-friendly, even if you're not technically inclined.
 
