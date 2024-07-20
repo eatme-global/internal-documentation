@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-font-family-base: "Inter", sans-serif;
   --ifm-color-primary: #e27a39;
   --ifm-color-primary-dark: #de6a21;
   --ifm-color-primary-darker: #d2631f;
@@ -19,6 +20,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
+  --ifm-font-family-base: "Inter", sans-serif;
   --ifm-color-primary: #e68a51;
   --ifm-color-primary-dark: #e27a39;
   --ifm-color-primary-darker: #de6a21;

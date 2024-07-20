@@ -5,27 +5,23 @@ const config = {
   tagline: "One-stop resource for all EatMe documentation and internal blogs",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
   url: "https://docs.eatmeglobal.org",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "eatme-global", // Usually your GitHub org/user name.
-  projectName: "internal-documentation", // Usually your repo name.
+  organizationName: "eatme-global",
+  projectName: "internal-documentation",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
   },
+
+  stylesheets: [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap",
+  ],
 
   presets: [
     [
@@ -33,15 +29,13 @@ const config = {
       {
         docs: {
           sidebarPath: "./sidebars.js",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/eatme-global/internal-documentation",
+          editUrl:
+            "https://github.com/eatme-global/internal-documentation/tree/main/docs/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/eatme-global/internal-documentation",
+          editUrl:
+            "https://github.com/eatme-global/internal-documentation/tree/main/blog/",
         },
         theme: {
           customCss: "./src/css/custom.css",
