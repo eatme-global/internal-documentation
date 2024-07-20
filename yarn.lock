@@ -7719,9 +7719,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"internal-documentaion@workspace:.":
+"internal-documentation@workspace:.":
   version: 0.0.0-use.local
-  resolution: "internal-documentaion@workspace:."
+  resolution: "internal-documentation@workspace:."
   dependencies:
     "@commitlint/cli": "npm:^19.3.0"
     "@commitlint/config-conventional": "npm:^19.2.2"
