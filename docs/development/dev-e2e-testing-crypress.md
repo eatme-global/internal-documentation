@@ -325,7 +325,7 @@ jobs:
    const sequelize = new Sequelize(
      process.env.NODE_ENV === "test"
        ? "sqlite::memory:"
-       : "your_regular_database_config_here"
+       : "your_regular_database_config_here",
    );
    ```
 

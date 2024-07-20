@@ -48,10 +48,11 @@ A blog post folder can be convenient to co-locate blog post images. So when you 
 blogs
 |-- 2019-05-30-welcome.md
 └── 2019-05-30-images
-      |-- index.md
-      |── sample-image-1.jpg
-      └── sample-image-1.jpg
+|-- index.md
+|── sample-image-1.jpg
+└── sample-image-1.jpg
 ```
+
 Then you can just refer to them inside the blog post using relative path.
 
 ```md
@@ -61,8 +62,6 @@ Then you can just refer to them inside the blog post using relative path.
 ## Tags
 
 The blog supports tags as well. Tags should be added to `tags.yml` before using them.
-
-
 
 ## Truncating
 
@@ -79,7 +78,6 @@ Rest of the blog post goes here
 ```
 
 In the above example only `This is the summary of this blog post` part will be visible on the page with all the blog posts.
-
 
 ## Interactive Blog Posts
 
@@ -104,11 +102,9 @@ Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/mar
 Use the power of React to create interactive blog posts.
 
 ` ``
-<button onClick={() => alert("button clicked!")}>Click me!</button>
-` ``
+<button onClick={() => alert("button clicked!")}>Click me!</button> ` ``
 
 <button onClick={() => alert("button clicked!")}>Click me!</button>
 
 :::
-
 ```

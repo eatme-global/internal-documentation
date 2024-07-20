@@ -1,1 +1,1 @@
-- [Load Testing](./qa//qa-load-testing.md.md)
+- [Load Testing](./qa/qa-load-testing.md)

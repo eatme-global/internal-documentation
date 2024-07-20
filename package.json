@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -17,7 +16,8 @@
     "lint:fix": "yarn run eslint . --fix",
     "format": "yarn run prettier --check .",
     "format:fix": "yarn run prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky || true",
+    "postinstall": "husky || true"
   },
   "dependencies": {
     "@docusaurus/core": "3.4.0",
@@ -29,8 +29,6 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
     "@docusaurus/module-type-aliases": "3.4.0",
     "@docusaurus/tsconfig": "3.4.0",
     "@docusaurus/types": "3.4.0",
