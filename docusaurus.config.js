@@ -30,12 +30,12 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           editUrl:
-            "https://github.com/eatme-global/internal-documentation/tree/main/docs/",
+            "https://github.com/eatme-global/internal-documentation/tree/main",
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/eatme-global/internal-documentation/tree/main/blog/",
+            "https://github.com/eatme-global/internal-documentation/tree/main",
         },
         theme: {
           customCss: "./src/css/custom.css",
