@@ -1,8 +1,9 @@
 import { themes as prismThemes } from "prism-react-renderer";
 
 const config = {
-  title: "Internal Documentation",
-  tagline: "One-stop resource for all EatMe documentation and internal blogs",
+  title: "EatMe Internal Documentation",
+  tagline:
+    "One-stop resource for all EatMe internal documentation and internal blogs",
   favicon: "img/favicon.ico",
 
   url: "https://docs.eatmeglobal.org",
@@ -47,7 +48,7 @@ const config = {
   themeConfig: {
     image: "img/social-card.jpg",
     navbar: {
-      title: "EatMe",
+      title: "EatMe Docs",
       logo: {
         alt: "EatMe logo",
         src: "img/logo.svg",

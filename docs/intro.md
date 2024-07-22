@@ -8,7 +8,7 @@ Discover our comprehensive documentation and blog platform in just a few minutes
 
 ## About This Website
 
-Welcome to https://docs.eatmeglobal.org, your one-stop resource for all EatMe documentation and internal blogs. This website serves as a central hub for knowledge sharing, collaboration, and communication across all departments.
+Welcome to https://docs.eatmeglobal.org, your one-stop resource for all EatMe internal documentation and blogs. This website serves as a central hub for knowledge sharing, collaboration, and communication across all departments.
 
 ### Key Features
 
