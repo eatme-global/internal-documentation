@@ -96,11 +96,11 @@ const config = {
             },
             {
               label: "Quality Assurance",
-              to: "/docs/category/qa",
+              to: "/docs/category/quality-assurance",
             },
             {
               label: "Business Analysis",
-              to: "/docs/category/ba",
+              to: "/docs/category/business-analysis",
             },
           ],
         },
