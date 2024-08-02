@@ -87,12 +87,20 @@ const config = {
               to: "/docs/category/tutorial",
             },
             {
+              label: "Playbook",
+              to: "/docs/category/playbook",
+            },
+            {
               label: "Development",
               to: "/docs/category/development",
             },
             {
-              label: "QA",
+              label: "Quality Assurance",
               to: "/docs/category/qa",
+            },
+            {
+              label: "Business Analysis",
+              to: "/docs/category/ba",
             },
           ],
         },
