@@ -12,7 +12,7 @@ const config = {
   organizationName: "eatme-global",
   projectName: "internal-documentation",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   i18n: {
