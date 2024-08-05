@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>GitHub Authentication</title>
+  </head>
+  <body>
+    <script>
+      const client_id = "Ov23liEladNpvJb1kR68";
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get("code");
+
+      if (code) {
+        fetch(
+          "https://xx6xfng7zivreli5pvda2hhr5a0lxzqw.lambda-url.ap-south-1.on.aws/",
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ code, client_id }),
+          },
+        )
+          .then((response) => response.json())
+          .then(({ token }) => {
+            localStorage.setItem("githubToken", token);
+            window.location.href = "/admin/";
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      }
+    </script>
+  </body>
+</html>
