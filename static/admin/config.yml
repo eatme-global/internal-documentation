@@ -2,8 +2,6 @@ backend:
   name: github
   repo: eatme-global/internal-documentation
   branch: main
-  base_url: https://xx6xfng7zivreli5pvda2hhr5a0lxzqw.lambda-url.ap-south-1.on.aws
-  auth_endpoint: auth
 
 media_folder: static/img
 public_folder: /img
