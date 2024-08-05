@@ -2,7 +2,11 @@ backend:
   name: github
   repo: eatme-global/internal-documentation
   branch: main
-  base_url: /github-oauth-provider.html
+  auth_type: implicit
+  app_id: Ov23liEladNpvJb1kR68
+  base_url: https://docs.eatmeglobal.org
+  auth_endpoint: https://github.com/login/oauth/authorize
+  large_media: true
 
 media_folder: "static/img"
 public_folder: "/img"
