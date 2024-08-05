@@ -3,7 +3,6 @@ backend:
   repo: eatme-global/internal-documentation
   branch: main
   base_url: /github-oauth-provider.html
-  auth_endpoint: auth
 
 media_folder: "static/img"
 public_folder: "/img"
