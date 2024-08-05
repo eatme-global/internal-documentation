@@ -2,7 +2,7 @@ backend:
   name: github
   repo: eatme-global/internal-documentation
   branch: main
-  base_url: https://api.github.com
+  base_url: /github-oauth-provider.html
   auth_endpoint: auth
 
 media_folder: "static/img"
