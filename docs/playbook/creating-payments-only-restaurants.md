@@ -11,7 +11,7 @@ This document contains a comprehensive guide of the process to create a new Paym
 
 ![Admin Panel Login UI](/img/login-custom-.png "Admin Panel Login")
 
-## Creating A Payments-Only Restaurant
+## Adding A Payments-Only Restaurant
 
 **NOTE :** Certain information are not required, therefore they shall be ignored as demonstrated in the guide.
 
