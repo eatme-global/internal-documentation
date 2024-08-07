@@ -13,8 +13,6 @@ This document contains a comprehensive guide of the process to create a new Paym
   <img src="/img/login-custom-.png" alt="Admin Panel Login UI" style="border: 2px solid #E27A39;" />
 </div>
 
-
-
 ## Adding A Payments-Only Restaurant
 
 **NOTE :** Certain information are not required, therefore they shall be ignored as demonstrated in the guide.
@@ -32,7 +30,6 @@ This document contains a comprehensive guide of the process to create a new Paym
   <img src="/img/create-restaurant-custom-.png" alt="Create restaurant dropdown" style="border: 2px solid #E27A39;" />
 </div>
 
-
 ### Restaurant Details :
 
 * Enter these fields (Restaurant Name, Suburb, Address, Contact Number, Mobile Number, Latitude & Longitude, Google Map Link) regarding the restaurant information.
@@ -49,7 +46,6 @@ This document contains a comprehensive guide of the process to create a new Paym
   <img src="/img/restaurant-details-custom-.png" alt="Restaurant Details" style="border: 2px solid #E27A39;" />
 </div>
 
-
 * Enter these fields (Delivery Radius (KM) - Default value (10), Ping Radius (KM) - Default value (5),Direct Delivery Radius (KM) - Default value (10), Restaurant Preparation Time (Min) - Default value (25)).
 * Skip the WhatsNew/Featured and restaurant category fields which aren't required as shown in figure 3.4.
 * For more information : 
@@ -63,7 +59,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
   <img src="/img/delivery-ranges-custom-.png" alt="Direct Delivery Radius" style="border: 2px solid #E27A39;" />
 </div>
 
-
 ### Restaurant Type :
 
 * The payments only option has to be checked and the service types section gets disabled since this is the method that is being used at the company.
@@ -71,7 +66,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
 <div style="text-align: center;">
   <img src="/img/restaurant-type-custom-.png" alt="Restaurant payment type" style="border: 2px solid #E27A39;" />
 </div>
-
 
 ### Service Types :
 
@@ -82,7 +76,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
   <img src="/img/restaurant-type-service-types-custom-.png" alt="Restaurant Service Type" style="border: 2px solid #E27A39;" />
 </div>
 
-
 * For the tax and payment types section set the pickup service charge and per order charge to the value zero (0).
 * The Web app payment types checkboxes should not be checked as it is not required. Refer to figure 3.7.
 * **NOTE :** GST, Per Order Minimum Charge and Dine-in Service charges are set to a default value and cannot be changed.
@@ -90,7 +83,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
 <div style="text-align: center;">
   <img src="/img/web-service-types-custom-.png" alt="Service Types" style="border: 2px solid #E27A39;" />
 </div>
-
 
 ### Wallet Types :
 
@@ -100,7 +92,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
   <img src="/img/wallet-charges-custom-.png" alt="Payment Wallet Types" style="border: 2px solid #E27A39;" />
 </div>
 
-
 ### Pickup Web Link Options & Delivery Web Link Options :
 
 * These sections don’t require selecting options and leave it in its default value (No)
@@ -108,8 +99,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
 <div style="text-align: center;">
   <img src="/img/restaurant-pickup-web-link-options-delivery-web-link-options-custom-.png" alt="Pickup Web Link Options & Delivery Web Link Options" style="border: 2px solid #E27A39;" />
 </div>
-
-
 
 ### Billing type Details :
 
@@ -120,8 +109,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
   <img src="/img/billing-type-custom-.png" alt="Billing info" style="border: 2px solid #E27A39;" />
 </div>
 
-
-
 ### Transaction charges :
 
 * Local cards, International cards and other cards value depend on the client’s agreement, therefore it shall be set according to it. 
@@ -130,8 +117,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
 <div style="text-align: center;">
   <img src="/img/transaction-charges-custom-.png" alt="Transaction Charges" style="border: 2px solid #E27A39;" />
 </div>
-
-
 
 ### Business Details :
 
@@ -144,8 +129,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
   <img src="/img/business-details-custom-.png" alt="Business Details" style="border: 2px solid #E27A39;" />
 </div>
 
-
-
 ### Restaurant Opening Hours :
 
 * This section contains information regarding the restaurant active hours that will be indicated in the website.
@@ -157,8 +140,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
   <img src="/img/opening-hours-custom-.png" alt="Restaurant Opening Hours" style="border: 2px solid #E27A39;" />
 </div>
 
-
-
 ### Restaurant Auto Pause :
 
 * The auto pause section indicates restaurant inactive timings. ex : Lunch Break.
@@ -169,8 +150,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
   <img src="/img/auto-pause-custom-.png" alt="Restaurant Auto Pause Hours" style="border: 2px solid #E27A39;" />
 </div>
 
-
-
 ### Cuisine Types and Diet Types:
 
 * **Note:** This section can be set in its default value  since it's not required.
@@ -178,8 +157,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
 <div style="text-align: center;">
   <img src="/img/food-and-diet-types-custom-.png" alt="Cuisine Types and Diet Types" style="border: 2px solid #E27A39;" />
 </div>
-
-
 
 ### Restaurant Images:
 
@@ -192,8 +169,6 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
  <img src="/img/restaurant-images-custom-.png" alt="Restaurant's Images" style="border: 2px solid #E27A39;" /> 
 </div>
 
-
-
 ### Receipt Details :
 
 * **Note:** This section can be left as default since it's not required.
@@ -202,13 +177,10 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
   <img src="/img/receipt-details-custom-.png" alt="Receipt Details" style="border: 2px solid #E27A39;" />
 </div>
 
-
-
-### Final step
+### Final step :
 
 * Finally make sure all required fields have been entered and click the ADD button at the bottom of the receipt details section to add the restaurant.
 
 <div style="text-align: center;">
   <img src="/img/add-restaurant-custom-.png" alt="Add Restaurant" style="border: 2px solid #E27A39;" />
 </div>
-
