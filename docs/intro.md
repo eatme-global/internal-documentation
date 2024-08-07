@@ -13,7 +13,7 @@ Welcome to https://docs.eatmeglobal.org, your one-stop resource for all EatMe in
 
 ### Key Features
 
-1. **Documentation Hub**: Access all company documentation at https://docs.eatmeglobal.org/docs/
+1. **Documentation Hub**: Access all company documentation at https://docs.eatmeglobal.org/docs
 2. **Internal Blog Platform**: Read and contribute to company blogs at https://docs.eatmeglobal.org/blogs
 3. **User-Friendly Editing**: Easy-to-use interface for creating and updating content
 4. **Automatic Deployment**: Changes go live quickly through our automated system
@@ -31,7 +31,7 @@ Everyone at EatMe! Whether you're in Development, Quality Assurance, Business An
 
 ### Accessing Documentation
 
-1. Visit https://docs.eatmeglobal.org/docs/
+1. Visit https://docs.eatmeglobal.org/docs
 2. Browse through different sections relevant to your role or project
 3. Use the search function to find specific information quickly
 
@@ -45,10 +45,10 @@ Everyone at EatMe! Whether you're in Development, Quality Assurance, Business An
 
 We encourage everyone to contribute to our documentation and blog platform. Here's how:
 
-1. **Request Access**: Contact IT for credentials to edit content on https://app.dhub.dev
-2. **Find the Right File**: Locate the document or blog post you want to edit
+1. **Request Access**: Contact IT for to gain access to manage content on this website
+2. **Find the Right File**: Locate the document or blog post you want to edit or create a new on under the correct category
 3. **Make Your Changes**: Follow the tutorials in the docs section for guidance
-4. **Submit for Review**: Create a pull request directly from the dhub site
+4. **Submit for Review**: Publish the changes
 5. **Automatic Deployment**: Approved changes will be automatically published to the live site
 
 ## Need Help?
