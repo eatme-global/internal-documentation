@@ -8,9 +8,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "docs"
-    label: "Docs"
-    folder: "docs"
+  - name: "tutorial"
+    label: "Tutorial"
+    folder: "docs/tutorial"
     create: true
     slug: "{{slug}}"
     fields:
@@ -47,15 +47,6 @@ collections:
   - name: "qa"
     label: "QA"
     folder: "docs/qa"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "tutorial"
-    label: "Tutorial"
-    folder: "docs/tutorial"
     create: true
     slug: "{{slug}}"
     fields:
