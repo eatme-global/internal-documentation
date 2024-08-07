@@ -38,7 +38,10 @@ This document contains a comprehensive guide of the process to create a new Paym
 
 * The highlighted sections indicate the Latitude & Longitude, therefore it shall be extracted as the examples stated above.
 
-![Restaurant Details UI](/img/restaurant-details-custom-.png)
+![Restaurant Details](/img/restaurant-details-custom-.png "Restaurant Details")
+
+
+
 * Enter these fields (Delivery Radius (KM) - Default value (10), Ping Radius (KM) - Default value (5),Direct Delivery Radius (KM) - Default value (10), Restaurant Preparation Time (Min) - Default value (25)).
 * Skip the WhatsNew/Featured and restaurant category fields which aren't required as shown in figure 3.4.
 * For more information : 
@@ -62,6 +65,7 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
 * For the Web Service Types the manager name has to be the restaurant Sales Manager’s name and the restaurant category has to be selected depending on the characteristics of the restaurant.
 
 ![Restaurant Service Type and Service Types](/img/restaurant-type-service-types-custom-.png "Restaurant Service Type")
+
 * For the tax and payment types section set the pickup service charge and per order charge to the value zero (0).
 * The Web app payment types checkboxes should not be checked as it is not required. Refer to figure 3.7.
 * **NOTE :** GST, Per Order Minimum Charge and Dine-in Service charges are set to a default value and cannot be changed.
@@ -94,7 +98,8 @@ Direct Delivery Radius is the range that the restaurant offers to deliver items 
 
 ![Transaction Charges ](/img/transaction-charges-custom-.png "Transaction Charges")
 
-  ### Business Details :
+### Business Details :
+
 * These are partner specific and important details that should be filled that are provided by the client. 
 * For more information : 
 
