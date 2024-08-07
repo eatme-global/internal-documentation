@@ -17,15 +17,13 @@ function HomepageHeader() {
           EatMe Internal Documentation
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <div>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
             Read Docs
           </Link>
-        </div>
-        <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/admin">
             Manage Content
           </Link>
