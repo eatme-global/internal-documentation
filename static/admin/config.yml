@@ -2,6 +2,7 @@ backend:
   name: github
   repo: eatme-global/internal-documentation
   branch: main
+  site_url: https://docs.eatmeglobal.org
 
 media_folder: static/img
 public_folder: /img
@@ -15,11 +16,55 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "ba"
+    label: "BA"
+    folder: "docs/ba"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "development"
+    label: "Development"
+    folder: "docs/development"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "playbook"
+    label: "Playbook"
+    folder: "docs/playbook"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "qa"
+    label: "QA"
+    folder: "docs/qa"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "tutorial"
+    label: "Tutorial"
+    folder: "docs/tutorial"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "blog"
     label: "Blog"
     folder: "blog"
-    identifier_field: title
-    widget: "list"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
