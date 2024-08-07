@@ -2,8 +2,6 @@ backend:
   name: github
   repo: eatme-global/internal-documentation
   branch: main
-  base_url: https://xx6xfng7zivreli5pvda2hhr5a0lxzqw.lambda-url.ap-south-1.on.aws/
-  auth_endpoint: /auth
 
 media_folder: static/img
 public_folder: /img
@@ -17,3 +15,25 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    identifier_field: title
+    widget: "list"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - label: "Authors"
+        name: "authors"
+        widget: "list"
+        fields:
+          - { name: name, label: Name, widget: string }
+          - { name: title, label: Title, widget: string }
+          - { name: url, label: URL, widget: string }
+          - { name: imageUrl, label: ImageURL, widget: string }
