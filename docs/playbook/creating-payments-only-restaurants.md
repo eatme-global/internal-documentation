@@ -38,5 +38,3 @@ To create a payments-only restaurant click on the restaurant dropdown located at
 6. The highlighted sections indicate the Latitude & Longitude, therefore it shall be extracted as the examples stated above.
 
    ![](/img/image2.png)
-
-   ![]()
