@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Load Testing with JMeter
 ---
 
 # Load Testing with JMeter

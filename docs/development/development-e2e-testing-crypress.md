@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: E2E Testing with Cypress
 ---
+
 # E2E Testing with Cypress
 
 ## Table of Contents
@@ -25,6 +26,7 @@ This document explains the setup and usage of end-to-end (E2E) testing for a Nod
    ```
    npm install --save-dev cypress
    ```
+
 2. Set up your Cypress configuration in `cypress.json`.
 3. Create test files in the `cypress/integration` directory.
 
@@ -34,65 +36,65 @@ Here's a list of comprehensive E2E test cases for discount endpoints:
 
 ### GET /discounts
 
-* Should return all discounts when the database has discounts
-* Should return an empty array when there are no discounts
-* Should return the correct number of discounts (pagination if implemented)
-* Should return 200 status code
+- Should return all discounts when the database has discounts
+- Should return an empty array when there are no discounts
+- Should return the correct number of discounts (pagination if implemented)
+- Should return 200 status code
 
 ### GET /discounts/:id
 
-* Should return the correct discount when a valid ID is provided
-* Should return 404 when an invalid ID is provided
-* Should return 400 for an incorrectly formatted ID
-* Should return 200 status code for a successful request
+- Should return the correct discount when a valid ID is provided
+- Should return 404 when an invalid ID is provided
+- Should return 400 for an incorrectly formatted ID
+- Should return 200 status code for a successful request
 
 ### POST /discounts
 
-* Should create a new discount with valid data
-* Should return the created discount object
-* Should return 400 for missing required fields
-* Should return 400 for invalid data types
-* Should return 201 status code for a successful creation
+- Should create a new discount with valid data
+- Should return the created discount object
+- Should return 400 for missing required fields
+- Should return 400 for invalid data types
+- Should return 201 status code for a successful creation
 
 ### PUT /discounts/:id
 
-* Should update an existing discount with valid data
-* Should return the updated discount object
-* Should return 404 when trying to update a non-existent discount
-* Should return 400 for invalid data
-* Should return 200 status code for a successful update
+- Should update an existing discount with valid data
+- Should return the updated discount object
+- Should return 404 when trying to update a non-existent discount
+- Should return 400 for invalid data
+- Should return 200 status code for a successful update
 
 ### DELETE /discounts/:id
 
-* Should delete an existing discount
-* Should return 204 status code for a successful deletion
-* Should return 404 when trying to delete a non-existent discount
+- Should delete an existing discount
+- Should return 204 status code for a successful deletion
+- Should return 404 when trying to delete a non-existent discount
 
 ### Error Handling
 
-* Should handle and return appropriate error messages for each endpoint
-* Should return 500 status code for server errors
+- Should handle and return appropriate error messages for each endpoint
+- Should return 500 status code for server errors
 
 ### Authentication and Authorization (if implemented)
 
-* Should require authentication for protected routes
-* Should return 401 for unauthenticated requests
-* Should return 403 for unauthorized requests
+- Should require authentication for protected routes
+- Should return 401 for unauthenticated requests
+- Should return 403 for unauthorized requests
 
 ### Query Parameters (if implemented)
 
-* Should correctly filter discounts based on query parameters
-* Should correctly sort discounts based on query parameters
-* Should correctly paginate results based on query parameters
+- Should correctly filter discounts based on query parameters
+- Should correctly sort discounts based on query parameters
+- Should correctly paginate results based on query parameters
 
 ### Data Validation
 
-* Should properly validate all input fields (e.g., date formats, numeric values)
-* Should handle and return appropriate error messages for validation failures
+- Should properly validate all input fields (e.g., date formats, numeric values)
+- Should handle and return appropriate error messages for validation failures
 
 ### Performance
 
-* Should respond within an acceptable time frame for each endpoint
+- Should respond within an acceptable time frame for each endpoint
 
 ## Example Test Suites
 
@@ -342,6 +344,7 @@ jobs:
      mongoUri = environment.dbURI;
    }
    ```
+
 2. Handle potential connection issues, especially when using Docker containers.
 3. Use consistent data across all tests to ensure reproducibility.
 4. Implement proper error handling and timeouts in your tests.

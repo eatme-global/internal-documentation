@@ -146,14 +146,6 @@ const config = {
       darkTheme: prismThemes.dracula,
     },
   },
-
-  scripts: [
-    {
-      src: "https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js",
-      async: true,
-      defer: true,
-    },
-  ],
 };
 
 export default config;
