@@ -1,7 +1,7 @@
 ---
-title: Creating Payments Only Restaurants
+title: Creating Payments-Only Restaurants
 ---
-## Table of Contents
+
 
 ## Introduction
 
@@ -39,8 +39,6 @@ This document contains a comprehensive guide of the process to create a new Paym
 * The highlighted sections indicate the Latitude & Longitude, therefore it shall be extracted as the examples stated above.
 
 ![Restaurant Details](/img/restaurant-details-custom-.png "Restaurant Details")
-
-
 
 * Enter these fields (Delivery Radius (KM) - Default value (10), Ping Radius (KM) - Default value (5),Direct Delivery Radius (KM) - Default value (10), Restaurant Preparation Time (Min) - Default value (25)).
 * Skip the WhatsNew/Featured and restaurant category fields which aren't required as shown in figure 3.4.
