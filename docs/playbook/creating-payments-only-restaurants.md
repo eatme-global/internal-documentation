@@ -1,5 +1,5 @@
 ---
-title: Creating Payments-Only Restaurants
+title: Test Creating Payments-Only Restaurants
 ---
 ## Introduction
 
