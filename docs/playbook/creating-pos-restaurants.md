@@ -29,9 +29,10 @@ This document contains a comprehensive guide of the process to create a new Paym
 </div>
 
 * Then click on the Create Restaurant button as illustrated below and a modal will popup to create the restaurant.
-<div style="text-align: center;">
-  <img src="/img/add-restaurant-custom-pos.png" alt="Add Restaurant" title="Add Restaurant" style="border: 2px solid #E27A39;" />
-</div>
+
+  <div style="text-align: center;">
+    <img src="/img/add-restaurant-custom-pos.png" alt="Add Restaurant" title="Add Restaurant" style="border: 2px solid #E27A39;" />
+  </div>
 
 ### Restaurant Details :
 
@@ -66,7 +67,7 @@ Enter the assigned Sales Manager’s name and select the restaurant category typ
   <img src="/img/company-details-custom-.png" alt="Company details" title="Company details" style="border: 2px solid #E27A39;" />
 </div>
 
-### Connect Account Details  :  
+### Connect Account Details  :
 
 * Enter the authorized authentication password provided by EatMe Globals, then the option to select a platform id will be enabled.
 * Once the platform id gets enabled Select the value to EatMe Platform and do not select the connect ID. Refer to figure 3.8
@@ -75,15 +76,15 @@ Enter the assigned Sales Manager’s name and select the restaurant category typ
 <div style="text-align: center;">
   <img src="/img/connect-account-details-custom-.png" alt="Connect Account Details" title="Connect Account Details" style="border: 2px solid #E27A39;" />
 </div>
-* For the Restaurant logo you may find their logo online and upload it if not provided by the client.
-* The agreement is not uploaded in often scenarios therefore upload a blank document(PDF).
+\* For the Restaurant logo you may find their logo online and upload it if not provided by the client.
+\* The agreement is not uploaded in often scenarios therefore upload a blank document(PDF).
 * To upload the agreement document click on the paper click icon and select the file and click the UPLOAD PDF button. 
 
 <div style="text-align: center;">
   <img src="/img/restaurant-logo-agreement-custom-.png" alt="Restaurant Logo & Agreement" title="Restaurant Logo & Agreement" style="border: 2px solid #E27A39;" />
 </div>
 
-### Final Step : 
+### Final Step :
 
 * Finally once all the details have been entered and verified successfully the create button will be enabled to create the restaurant. 
 
