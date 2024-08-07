@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: eatme-global/internal-documentation
+  name: git-gateway
   branch: main
-  site_url: https://docs.eatmeglobal.org
 
 media_folder: static/img
 public_folder: /img
