@@ -26,7 +26,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg ml-1"
-            to="/admin"
+            href="https://docs.eatmeglobal.org"
           >
             Manage Content
           </Link>
