@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e1715a4-0b46-4aec-9b9b-569722cf707b/deploy-status)](https://app.netlify.com/sites/eatmedocs/deploys)
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
