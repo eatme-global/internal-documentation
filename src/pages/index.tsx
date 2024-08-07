@@ -19,12 +19,15 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg mr-1"
             to="/docs/intro"
           >
             Read Docs
           </Link>
-          <Link className="button button--secondary button--lg" to="/admin">
+          <Link
+            className="button button--secondary button--lg ml-1"
+            to="/admin"
+          >
             Manage Content
           </Link>
         </div>
