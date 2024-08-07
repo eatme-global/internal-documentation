@@ -7,7 +7,7 @@ public_folder: /img
 
 collections:
   - name: "tutorial"
-    label: "Tutorial"
+    label: "Tutorial Documents"
     folder: "docs/tutorial"
     create: true
     slug: "{{slug}}"
@@ -16,7 +16,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "ba"
-    label: "BA"
+    label: "Business Analysis Documents"
     folder: "docs/ba"
     create: true
     slug: "{{slug}}"
@@ -25,7 +25,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "development"
-    label: "Development"
+    label: "Development Documents"
     folder: "docs/development"
     create: true
     slug: "{{slug}}"
@@ -34,7 +34,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "playbook"
-    label: "Playbook"
+    label: "Playbook Documents"
     folder: "docs/playbook"
     create: true
     slug: "{{slug}}"
@@ -43,7 +43,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "qa"
-    label: "QA"
+    label: "Quality Assurance Documents"
     folder: "docs/qa"
     create: true
     slug: "{{slug}}"
