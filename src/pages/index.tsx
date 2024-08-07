@@ -25,6 +25,11 @@ function HomepageHeader() {
             Read Docs
           </Link>
         </div>
+        <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="/admin">
+            Manage Content
+          </Link>
+        </div>
       </div>
     </header>
   );

@@ -70,6 +70,11 @@ const config = {
           label: "GitHub",
           position: "right",
         },
+        {
+          href: "https://docs.eatmeglobal.org/admin",
+          label: "Login",
+          position: "right",
+        },
       ],
     },
     footer: {
