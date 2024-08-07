@@ -1,0 +1,75 @@
+backend:
+  name: github
+  repo: eatme-global/internal-documentation
+  branch: main
+  site_url: https://docs.eatmeglobal.org
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "tutorial"
+    label: "Tutorial Documents"
+    folder: "docs/tutorial"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "ba"
+    label: "Business Analysis Documents"
+    folder: "docs/ba"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "development"
+    label: "Development Documents"
+    folder: "docs/development"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "playbook"
+    label: "Playbook Documents"
+    folder: "docs/playbook"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "qa"
+    label: "Quality Assurance Documents"
+    folder: "docs/qa"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: body, label: Body, widget: markdown }
+      - { name: slug, label: Slug, widget: string }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - label: "Authors"
+        name: "authors"
+        widget: "list"
+        fields:
+          - { name: name, label: Name, widget: string }
+          - { name: title, label: Title, widget: string }
+          - { name: url, label: URL, widget: string }
+          - { name: imageUrl, label: ImageURL, widget: string }
