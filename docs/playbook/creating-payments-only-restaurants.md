@@ -9,7 +9,8 @@ This document contains a comprehensive guide of the process to create a new Paym
 
 * To start things the first step is to open the Website and sign into the Admin Panel by entering the authorized email and password as illustrated below.
 
-![Admin Panel Login UI](/img/login-custom-.png "Admin Panel Login")
+<img src="/img/login-custom-.png" alt="Admin Panel Login UI" style="border: 2px solid #E27A39;" />
+
 
 ## Adding A Payments-Only Restaurant
 
