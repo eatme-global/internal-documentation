@@ -3,7 +3,7 @@ title: Creating POS Restaurants
 ---
 ## Introduction
 
-This document contains a comprehensive guide of the process to create a new Payments only Restaurant in the EatMe Globals Admin Panel.
+This document contains a comprehensive guide of the process to create a new Payments only Restaurant in the EatMe Global Admin Panel.
 
 ## Getting Started
 
@@ -52,7 +52,7 @@ Enter the assigned Sales Manager’s name and select the restaurant category typ
 
 ### Connect Account Details  :
 
-* Enter the authorized authentication password provided by EatMe Globals, then the option to select a platform id will be enabled.
+* Enter the authorized authentication password provided by EatMe Global, then the option to select a platform id will be enabled.
 * Once the platform id gets enabled Select the value to EatMe Platform and do not select the connect ID. Refer to figure 3.8
 * **Note :** Keep the wallet payments option turned off.
 
