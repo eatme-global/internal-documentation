@@ -16,9 +16,11 @@ This document contains a comprehensive guide of the process to create a new Paym
 * Once the login is successful the user will be redirected to the UI of the Admin Panel.
 
 ![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
+
 * To create a POS restaurant click on the POS dropdown located at the side navigation menu on the left and then select restaurants as illustrated below.
 
 ![POS restaurants navigation](/img/pos-restaurants-custom-.png "POS restaurants navigation")
+
 * Then click on the Create Restaurant button as illustrated below and a modal will popup to create the restaurant.
 
 ![Create a new POS restaurant](/img/pos-restaurants-custom-.png "Create a new POS restaurant")
@@ -33,6 +35,7 @@ Enter these fields (Restaurant Name, Address, Country, City, Currency, Time Zone
 * Once the location has been pinned the Google Map Link, Latitude, Longitude will set automatically as shown below.
 
 ![Restaurant location details](/img/location-details-custom-pos.png "Restaurant location details")
+
 * Enter the assigned Sales Manager’s name and select the restaurant category type based on the restaurant type.
 
 ![Sales manager and Restaurant Category details](/img/sales-manager-restaurant-category-custom-.png "Sales manager and Restaurant Category details")
@@ -67,3 +70,5 @@ Enter these fields (Restaurant Name, Address, Country, City, Currency, Time Zone
 * Finally once all the details have been entered and verified successfully the create button will be enabled to create the restaurant.
 
 ![Adding the restaurant](/img/create-pos-restaurant-custom-.png "Adding the restaurant")
+
+**NOTE : THIS ISN'T THE FINAL VERSION**
