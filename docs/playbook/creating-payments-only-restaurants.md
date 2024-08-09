@@ -1,9 +1,9 @@
 ---
 title: Creating Payments-Only Restaurants
 ---
-## Introductionnn
+## Introduction
 
-This document contains a comprehensive guide of the process to create a new Payments only Restaurant in the EatMe Globals Admin Panel.
+This document contains a comprehensive guide of the process to create a new Payments only Restaurant in the EatMe Global Admin Panel.
 
 ## Getting Started
 
