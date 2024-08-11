@@ -98,4 +98,3 @@ After all required details are entered and verified, the **Create** button will 
 
 ![Adding the restaurant](/img/create-pos-restaurant-custom-.png "Adding the restaurant")
 
-**NOTE: THIS ISN'T THE FINAL VERSION**
