@@ -94,7 +94,7 @@ In the **Tax and Payment Types** section:
 
 ### Wallet Types
 
-This section pertains to digital wallet payment methods. No options need to be enabled; all should remain in their default (off) state.
+This section pertains to digital wallet payment methods. No options need to be enabled, all should remain in their default (off) state.
 
 ![Wallet Types](/img/wallet-charges-custom-.png "Wallet Types")
 
