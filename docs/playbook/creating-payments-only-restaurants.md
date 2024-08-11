@@ -100,7 +100,7 @@ This section pertains to digital wallet payment methods. No options need to be e
 
 ### Pickup Web Link Options & Delivery Web Link Options
 
-These sections do not require any modifications; leave all options at their default setting (**No**).
+These sections do not require any modifications, leave all options at their default setting (**No**).
 
 ![Pickup Web Link Options & Delivery Web Link Option](/img/restaurant-pickup-web-link-options-delivery-web-link-options-custom-.png "Pickup Web Link Options & Delivery Web Link Option")
 
