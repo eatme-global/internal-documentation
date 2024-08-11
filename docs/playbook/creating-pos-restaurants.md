@@ -59,12 +59,12 @@ Next, input the following details:
 Complete the company information by entering the following fields:
 
 * **Company Name**
-* **UEN** (Unique Entity Number): The identification number for the registered business.
+* **UEN** (Unique Entity Number): *The identification number for the registered business.*
 * **Address**
 * **Phone Number**
 * **Email Address**
-* **Point of Contact**: Name of the individual responsible for business-related matters.
-* **Contact Number**: Phone number of the point of contact.
+* **Point of Contact**: *Name of the individual responsible for business-related matters.*
+* **Contact Number**: *Phone number of the point of contact.*
 
 ![Company details](/img/company-details-custom-.png "Company details")
 
