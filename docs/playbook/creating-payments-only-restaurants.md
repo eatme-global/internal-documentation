@@ -1,149 +1,175 @@
 ---
-title: Creating Payments-Only Restaurants
+title: How To Create A Payments-Only Restaurant
 ---
 ## Introduction
 
-This document contains a comprehensive guide of the process to create a new Payments only Restaurant in the EatMe Global Admin Panel.
+This document serves as a detailed guide for creating a new Payments-Only Restaurant within the EatMe Global Admin Panel.
 
 ## Getting Started
 
-* To start things the first step is to open the Website and sign into the Admin Panel by entering the authorized email and password as illustrated below.
+To begin, navigate to the Admin Panel website and authenticate using your authorized email address and password.
 
 ![Login UI](/img/login-custom-.png "Login UI")
 
-## Adding A Payments-Only Restaurant
+## Adding a Payments-Only Restaurant
 
-**NOTE :** Certain information are not required, therefore they shall be ignored as demonstrated in the guide.
+**Note:** Certain fields are non-essential and can be disregarded as outlined in this guide.
 
-* Once the login is successful the user will be redirected to the UI of the Admin Panel UI.
+Upon successful authentication, the system will redirect you to the Admin Panel interface.
 
 ![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
 
-* To create a Payments-Only Restaurant click on the restaurant dropdown located at the side navigation menu on the left and then select create restaurant.
+To initiate the creation of a Payments-Only Restaurant, access the **Restaurant** dropdown from the side navigation menu on the left, then select **Create Restaurant**.
 
 ![Add a new Restaurant](/img/create-restaurant-custom-.png "Add a new Restaurant")
 
-### Restaurant Details :
+### Restaurant Details
 
-* Enter these fields (Restaurant Name, Suburb, Address, Contact Number, Mobile Number, Latitude & Longitude, Google Map Link) regarding the restaurant information.
-* For more information:
+Populate the following fields with the appropriate restaurant information:
 
-1. To get the latitude & longitude find the place on maps and then select it..
-2. Then copy the URL of the page and extract it as demonstrated below.
-3. Example link : `https://www.google.com/maps/place/Champion+Hotel/@1.3142633,103.8981148,17.14z/data=!3m1!5s0x31da1810de257e55:0xb672453c5681d682!4m15!1m5!3m4!2zMcKwMTknMDAuOCJOIDEwM8KwNTQnMDEuNyJF!8m2!3d`**1.3168913**`!4d`**103.9004756**`!3m8!1s0x31da1810de3b7785:0xf27e433cae335ed0!5m2!4m1!1i2!8m2!3d1.3147698!4d103.8983936!16s%2Fg%2F11b6b0tj9y?entry=ttu`
-4. Therefore Example states the **Latitude** = 1.3168913 & **Longitude** = 103.9004756
-5. The highlighted sections indicate the Latitude & Longitude, therefore it shall be extracted as the examples stated above.
+- **Restaurant Name**
+- **Suburb**
+- **Address**
+- **Contact Number**
+- **Mobile Number**
+- **Latitude & Longitude**
+- **Google Map Link**
 
-![Restaurant Details ](/img/restaurant-details-custom-.png "Restaurant Details")
+For latitude and longitude extraction:
 
-* Enter these fields (Delivery Radius (KM) - Default value (10), Ping Radius (KM) - Default value (5),Direct Delivery Radius (KM) - Default value (10), Restaurant Preparation Time (Min) - Default value (25)).
-* Skip the What's New/Featured and restaurant category fields which aren't required..
-* For more information : 
+1. Locate the restaurant on Google Maps.
+2. Copy the page URL and extract the latitude and longitude values as demonstrated below.
+3. Example URL: `https://www.google.com/maps/place/Champion+Hotel/@1.3142633,103.8981148,17.14z/data=!3m1!5s0x31da1810de257e55:0xb672453c5681d682!4m15!1m5!3m4!2zMcKwMTknMDAuOCJOIDEwM8KwNTQnMDEuNyJF!8m2!3d`**1.3168913**`!4d`**103.9004756**`!3m8!1s0x31da1810de3b7785:0xf27e433cae335ed0!5m2!4m1!1i2!8m2!3d1.3147698!4d103.8983936!16s%2Fg%2F11b6b0tj9y?entry=ttu`
+4. The highlighted sections correspond to **Latitude** = 1.3168913 and **Longitude** = 103.9004756. Extract these values accordingly.
 
-1. Delivery Radius is the maximum delivery distance range that the restaurant offers.
-2. Ping Radius a radius that can be set around a pinned location which covers a certain distance that makes a circle around it.
-3. Direct Delivery Radius is the range that the restaurant offers to deliver items to the customers using their own means within the given distance.
+![Restaurant Details](/img/restaurant-details-custom-.png "Restaurant Details")
+
+Configure the following parameters:
+
+- **Delivery Radius (KM)** - Default: 10
+- **Ping Radius (KM)** - Default: 5
+- **Direct Delivery Radius (KM)** - Default: 10
+- **Restaurant Preparation Time (Min)** - Default: 25
+
+**Note:** The fields **What's New/Featured** and **Restaurant Category** are optional and can be skipped.
+
+Additional details:
+
+1. **Delivery Radius** defines the maximum range for restaurant deliveries.
+2. **Ping Radius** is the distance covered around a pinned location, forming a circular area.
+3. **Direct Delivery Radius** specifies the range within which the restaurant delivers using its own logistics.
 
 ![Delivery Radius](/img/delivery-ranges-custom-.png "Delivery Radius")
 
-### Restaurant Type :
+### Restaurant Type
 
-* The payments only option has to be checked and the service types section gets disabled since this is the method that is being used at the company.
+Select the **Payments Only** option. This will automatically disable the **Service Types** section, as it is irrelevant for this configuration.
 
 ![Restaurant Type Selection](/img/restaurant-type-custom-.png "Restaurant Type Selection")
 
-### Service Types :
+### Service Types
 
-* This section is often disabled since payments only is selected, however in rare occasions this may be used and check only (Delivery, Pick up, Dine-in for Mobile Service Types and Dine-in and Pick up for Web Service Types).
-* For the Web Service Types the manager name has to be the restaurant Sales Manager’s name and the restaurant category has to be selected depending on the characteristics of the restaurant.
+In most cases, the **Service Types** section is disabled when **Payments Only** is selected. However, if applicable, enable the following options:
+
+- **Delivery**
+- **Pick up**
+- **Dine-in** (for Mobile Service Types)
+- **Dine-in and Pick up** (for Web Service Types)
+
+For Web Service Types:
+
+- Set the **Manager Name** to the restaurant Sales Manager’s name.
+- Select the **Restaurant Category** based on the restaurant's specific characteristics.
 
 ![Restaurant service types selection](/img/restaurant-type-service-types-custom-.png "Restaurant service types selection")
 
-* For the tax and payment types section set the pickup service charge and per order charge to the value zero (0).
-* The Web app payment types checkboxes should not be checked as it is not required. Refer to figure 3.7.
-* **NOTE :** GST, Per Order Minimum Charge and Dine-in Service charges are set to a default value and cannot be changed.
+In the **Tax and Payment Types** section:
+
+- Set **Pickup Service Charge** and **Per Order Charge** to zero (0).
+- Leave the **Web App Payment Types** checkboxes unchecked, as they are unnecessary.
+
+**Note:** The **GST**, **Per Order Minimum Charge**, and **Dine-in Service Charges** are predefined and cannot be altered.
 
 ![Tax and payment types](/img/web-service-types-custom-.png "Tax and payment types")
 
-### Wallet Types :
+### Wallet Types
 
-* This section contains digital wallet payment methods and is not required to enable any of the payment methods, therefore leave every option turned off.
+This section pertains to digital wallet payment methods. No options need to be enabled; all should remain in their default (off) state.
 
 ![Wallet Types](/img/wallet-charges-custom-.png "Wallet Types")
 
-### Pickup Web Link Options & Delivery Web Link Options :
+### Pickup Web Link Options & Delivery Web Link Options
 
-* These sections don’t require selecting options and leave it in its default value (No).
+These sections do not require any modifications; leave all options at their default setting (**No**).
 
 ![Pickup Web Link Options & Delivery Web Link Option](/img/restaurant-pickup-web-link-options-delivery-web-link-options-custom-.png "Pickup Web Link Options & Delivery Web Link Option")
 
-### Billing type Details :
+### Billing Type Details
 
-* Select the billing type to the value unlimited and set the unlimited charge per month to the value zero (0).
-* **Note :** The Free tier billing type method is not being used currently.
+Set the **Billing Type** to **Unlimited** and configure the **Unlimited Charge Per Month** to zero (0).
+
+**Note:** The **Free Tier** billing type is currently not in use.
 
 ![Billing type Details](/img/billing-type-custom-.png "Billing type Details")
 
-### Transaction charges :
+### Transaction Charges
 
-* Local cards, International cards and other cards value depend on the client’s agreement, therefore it shall be set according to it. 
-* **Note:** The online and offline transaction fee will be defined depending on the agreement.
+Set the values for **Local Cards**, **International Cards**, and other payment methods according to the client's agreement.
+
+**Note:** The **Online** and **Offline** transaction fees are also determined by the agreement.
 
 ![Transaction charging rates](/img/transaction-charges-custom-.png "Transaction charging rates")
 
-### Business Details :
+### Business Details
 
-* These are partner specific and important details that should be filled that are provided by the client. 
-* For more information : 
-
-1. Registered PVS/ UEN is an identification number for the registered business.
+Fill in the business-specific details provided by the client. These are critical fields, including the **Registered PVS/UEN** (business identification number).
 
 ![Business Details](/img/business-details-custom-.png "Business Details")
 
-### Restaurant Opening Hours :
+### Restaurant Opening Hours
 
-* This section contains information regarding the restaurant active hours that will be indicated in the website.
-* The time should be set by clicking the clock icon or entering it manually.
-* The time can be set to all 7 days by clicking the Set At Once button as highlighted after the opening and closing time has been set.
-* **Note:** Timings can be set individually to specific days.
+Set the restaurant's active hours, which will be displayed on the website. Use the clock icon or manually enter the time.
+
+- Use the **Set At Once** button to apply the same opening and closing times across all days.
+
+**Note:** Timing can be customized for individual days if necessary.
 
 ![Restaurant Opening Hours](/img/opening-hours-custom-.png "Restaurant Opening Hours")
 
-### Restaurant Auto Pause :
+### Restaurant Auto Pause
 
-* The auto pause section indicates restaurant inactive timings. ex : Lunch Break.
-* The auto pause start and end time should be set by clicking the clock icon and setting it or by manually entering it, this can be applied to both the website and merchant app . Refer to figure 3.14
-* **Note:** This is used when the restaurant that provides delivery and pickup services, This will be applicable for all days
+Configure the **Auto Pause** feature to specify the restaurant's inactive hours (e.g., lunch breaks).
+
+- Set the start and end times using the clock icon or by entering the time manually. This applies to both the website and the merchant app.
+
+**Note:** This feature is useful for restaurants that provide delivery and pickup services and is applicable to all days.
 
 ![Restaurant Auto Pause](/img/auto-pause-custom-.png "Restaurant Auto Pause")
 
-### Cuisine Types and Diet Types:
+### Cuisine Types and Diet Types
 
-* **Note:** This section can be set in its default value  since it's not required.
+**Note:** This section is optional and can be left in its default state.
 
 ![Cuisine Types and Diet Types](/img/food-and-diet-types-custom-.png "Cuisine Types and Diet Types")
 
-### Restaurant Images:
+### Restaurant Images
 
-* Upload an image of the restaurant provided by the client or by finding it online.
-* The Tax Ratio cannot be changed, therefore it can remain in its default value.
-* The facilities and restaurant management system link isn't required therefore it can be in its default state.
-* Upload the logo of the restaurant provided by the client or by finding it online.
+Upload an image of the restaurant, either provided by the client or sourced online.
+
+- The **Tax Ratio** is fixed and cannot be changed.
+- The **Facilities** and **Restaurant Management System Link** fields are optional and can remain in their default state.
+- Upload the restaurant's logo, either provided by the client or sourced online.
 
 ![Restaurant Images](/img/restaurant-images-custom-.png "Restaurant Images")
 
-### Receipt Details :
+### Receipt Details
 
-* **Note:** This section can be left as default since it's not required.
+**Note:** This section is optional and can be left in its default state.
 
 ![Receipt Details](/img/receipt-details-custom-.png "Receipt Details")
 
-### Final step :
+### Final Step
 
-* Finally make sure all required fields have been entered and click the ADD button at the bottom of the receipt details section to add the restaurant.
+Ensure all required fields are populated, then click the **Add** button at the bottom of the receipt details section to finalize the creation of the restaurant.
 
 ![Creating the new restaurant](/img/add-restaurant-custom-.png "Creating the new restaurant")
-
-
-
-**NOTE : THIS ISN'T THE FINAL VERSION**
