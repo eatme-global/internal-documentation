@@ -1,74 +1,101 @@
 ---
-title: Creating POS Restaurants
+title: How To Create A POS Restaurant
 ---
 ## Introduction
 
-This document contains a comprehensive guide of the process to create a new Payments only Restaurant in the EatMe Global Admin Panel.
+This document serves as a detailed guide for creating a new POS Restaurant within the EatMe Global Admin Panel.
 
 ## Getting Started
 
-* To start things the first step is to open the Website and sign into the Admin Panel by entering the authorized email and password as illustrated below.
+To begin, access the Admin Panel website and authenticate using your authorized email and password, as depicted below.
 
 ![Login UI](/img/login-custom-.png "Login UI")
 
-## Adding A POS Restaurant
+## Adding a POS Restaurant
 
-* Once the login is successful the user will be redirected to the UI of the Admin Panel.
+Upon successful authentication, you will be redirected to the Admin Panel interface.
 
 ![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
 
-* To create a POS restaurant click on the POS dropdown located at the side navigation menu on the left and then select restaurants as illustrated below.
+To initiate the creation of a POS restaurant, navigate to the **POS** dropdown within the left-hand side navigation menu and select **Restaurants** as shown below.
 
 ![POS restaurants navigation](/img/pos-restaurants-custom-.png "POS restaurants navigation")
 
-* Then click on the Create Restaurant button as illustrated below and a modal will popup to create the restaurant.
+Click on the **Create Restaurant** button. A modal will appear, prompting you to input the necessary restaurant details.
 
 ![Create a new POS restaurant](/img/pos-restaurants-custom-.png "Create a new POS restaurant")
 
-### Restaurant Details :
+### Restaurant Details
 
-Enter these fields (Restaurant Name, Address, Country, City, Currency, Time Zone, Postal Code) regarding the restaurant information. Modal shown below.
+Within the modal, provide the following information:
+
+- **Restaurant Name**
+- **Address**
+- **Country**
+- **City**
+- **Currency**
+- **Time Zone**
+- **Postal Code**
 
 ![Create new POS restaurant Modal](/img/restaurant-details-custom-pos.png "Create new POS restaurant Modal")
 
-* Search for the restaurant location and find it on the map and double click the exact location to set the coordinates to the restaurant.
-* Once the location has been pinned the Google Map Link, Latitude, Longitude will set automatically as shown below.
+To set the restaurant's location:
+
+1. Search for the restaurant on the map.
+2. Double-click the exact location to automatically set the coordinates.
+3. The **Google Map Link**, **Latitude**, and **Longitude** fields will be populated automatically.
 
 ![Restaurant location details](/img/location-details-custom-pos.png "Restaurant location details")
 
-* Enter the assigned Sales Manager’s name and select the restaurant category type based on the restaurant type.
+Next, input the following details:
+
+- **Sales Manager's Name**: Enter the assigned Sales Manager's name.
+- **Restaurant Category**: Select the appropriate category based on the type of restaurant.
 
 ![Sales manager and Restaurant Category details](/img/sales-manager-restaurant-category-custom-.png "Sales manager and Restaurant Category details")
 
-### Company Details :
+### Company Details
 
-* Enter these fields (Company Name, UEN, Address, Phone Number, Email Address, Point of Contact and the number for the contact) regarding the company information. 
-* For more information :
+Complete the company information by entering the following fields:
 
-1. UEN is an identification number for the registered business.
-2. Point of Contact is the individual who is reachable to discuss business related matters.
+- **Company Name**
+- **UEN** (Unique Entity Number): The identification number for the registered business.
+- **Address**
+- **Phone Number**
+- **Email Address**
+- **Point of Contact**: Name of the individual responsible for business-related matters.
+- **Contact Number**: Phone number of the point of contact.
 
 ![Company details](/img/company-details-custom-.png "Company details")
 
-### Connect Account Details  :
+### Connect Account Details
 
-* Enter the authorized authentication password provided by EatMe Global, then the option to select a platform id will be enabled.
-* Once the platform id gets enabled Select the value to EatMe Platform and do not select the connect ID.
-* **Note :** Keep the wallet payments option turned off.
+To configure the Connect Account:
+
+1. Enter the authorized authentication password provided by EatMe Global.
+2. Once the platform ID field is enabled, select **EatMe Platform**.
+3. Leave the **Connect ID** field unselected.
+4. **Note**: Ensure the wallet payments option remains disabled.
 
 ![Connect Account Details](/img/connect-account-details-custom-.png "Connect Account Details")
 
-\* For the Restaurant logo you may find their logo online and upload it if not provided by the client.
-\* The agreement is not uploaded in often scenarios therefore upload a blank document (PDF).
+### Restaurant Logo & Agreement
 
-* To upload the agreement document click on the paper click icon and select the file and click the UPLOAD PDF button. 
+- **Restaurant Logo**: If the client hasn’t provided a logo, search online and upload it.
+- **Agreement**: Typically, agreements are not uploaded, so upload a blank PDF document as a placeholder.
+
+To upload the agreement document:
+
+1. Click on the paperclip icon.
+2. Select the file.
+3. Click the **UPLOAD PDF** button.
 
 ![Restaurant Logo & Agreement](/img/restaurant-logo-agreement-custom-.png "Restaurant Logo & Agreement")
 
-### Final Step :
+### Final Step
 
-* Finally once all the details have been entered and verified successfully the create button will be enabled to create the restaurant.
+After all required details are entered and verified, the **Create** button will be enabled to finalize the restaurant creation process.
 
 ![Adding the restaurant](/img/create-pos-restaurant-custom-.png "Adding the restaurant")
 
-**NOTE : THIS ISN'T THE FINAL VERSION**
+**NOTE: THIS ISN'T THE FINAL VERSION**
