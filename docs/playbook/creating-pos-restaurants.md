@@ -1,6 +1,18 @@
 ---
 title: How To Create A POS Restaurant
 ---
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Adding a POS Restaurant](#adding-a-pos-restaurant)
+   - [Restaurant Details](#restaurant-details)
+   - [Company Details](#company-details)
+   - [Connect Account Details](#connect-account-details)
+   - [Restaurant Logo & Agreement](#restaurant-logo--agreement)
+4. [Final Step](#final-step)
+
+
 ## Introduction
 
 This document serves as a detailed guide for creating a new POS Restaurant within the EatMe Global Admin Panel.
