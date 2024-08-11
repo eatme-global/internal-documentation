@@ -1,6 +1,27 @@
 ---
 title: How To Create A Payments-Only Restaurant
 ---
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Adding a Payments-Only Restaurant](#adding-a-payments-only-restaurant)
+   - [Restaurant Details](#restaurant-details)
+   - [Restaurant Type](#restaurant-type)
+   - [Service Types](#service-types)
+   - [Wallet Types](#wallet-types)
+   - [Pickup Web Link Options & Delivery Web Link Options](#pickup-web-link-options--delivery-web-link-options)
+   - [Billing Type Details](#billing-type-details)
+   - [Transaction Charges](#transaction-charges)
+   - [Business Details](#business-details)
+   - [Restaurant Opening Hours](#restaurant-opening-hours)
+   - [Restaurant Auto Pause](#restaurant-auto-pause)
+   - [Cuisine Types and Diet Types](#cuisine-types-and-diet-types)
+   - [Restaurant Images](#restaurant-images)
+   - [Receipt Details](#receipt-details)
+4. [Final Step](#final-step)
+
+
 ## Introduction
 
 This document serves as a detailed guide for creating a new Payments-Only Restaurant within the EatMe Global Admin Panel.
