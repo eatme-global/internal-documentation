@@ -23,19 +23,19 @@ To initiate the creation of a POS restaurant, navigate to the **POS** dropdown w
 
 Click on the **Create Restaurant** button. A modal will appear, prompting you to input the necessary restaurant details.
 
-![Create a new POS restaurant](/img/pos-restaurants-custom-.png "Create a new POS restaurant")
+![Create a new POS restaurant](/img/add-restaurant-custom-pos.png "Create a new POS restaurant")
 
 ### Restaurant Details
 
 Within the modal, provide the following information:
 
-- **Restaurant Name**
-- **Address**
-- **Country**
-- **City**
-- **Currency**
-- **Time Zone**
-- **Postal Code**
+* **Restaurant Name**
+* **Address**
+* **Country**
+* **City**
+* **Currency**
+* **Time Zone**
+* **Postal Code**
 
 ![Create new POS restaurant Modal](/img/restaurant-details-custom-pos.png "Create new POS restaurant Modal")
 
@@ -49,8 +49,8 @@ To set the restaurant's location:
 
 Next, input the following details:
 
-- **Sales Manager's Name**: Enter the assigned Sales Manager's name.
-- **Restaurant Category**: Select the appropriate category based on the type of restaurant.
+* **Sales Manager's Name**: Enter the assigned Sales Manager's name.
+* **Restaurant Category**: Select the appropriate category based on the type of restaurant.
 
 ![Sales manager and Restaurant Category details](/img/sales-manager-restaurant-category-custom-.png "Sales manager and Restaurant Category details")
 
@@ -58,13 +58,13 @@ Next, input the following details:
 
 Complete the company information by entering the following fields:
 
-- **Company Name**
-- **UEN** (Unique Entity Number): The identification number for the registered business.
-- **Address**
-- **Phone Number**
-- **Email Address**
-- **Point of Contact**: Name of the individual responsible for business-related matters.
-- **Contact Number**: Phone number of the point of contact.
+* **Company Name**
+* **UEN** (Unique Entity Number): The identification number for the registered business.
+* **Address**
+* **Phone Number**
+* **Email Address**
+* **Point of Contact**: Name of the individual responsible for business-related matters.
+* **Contact Number**: Phone number of the point of contact.
 
 ![Company details](/img/company-details-custom-.png "Company details")
 
@@ -81,8 +81,8 @@ To configure the Connect Account:
 
 ### Restaurant Logo & Agreement
 
-- **Restaurant Logo**: If the client hasn’t provided a logo, search online and upload it.
-- **Agreement**: Typically, agreements are not uploaded, so upload a blank PDF document as a placeholder.
+* **Restaurant Logo**: If the client hasn’t provided a logo, search online and upload it.
+* **Agreement**: Typically, agreements are not uploaded, so upload a blank PDF document as a placeholder.
 
 To upload the agreement document:
 
