@@ -69,7 +69,7 @@ Select the **Payments Only** option. This will automatically disable the **Servi
 
 ### Service Types
 
-In most cases, the **Service Types** section is disabled when **Payments Only** is selected. However, if applicable, enable the following options:
+In most cases, the **Service Types** section is disabled when **Payments Only** is selected. However, if applicable, enable the following options based on the restaurant's requirements.:
 
 - **Delivery**
 - **Pick up**
