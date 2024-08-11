@@ -73,7 +73,7 @@ Complete the company information by entering the following fields:
 To configure the Connect Account:
 
 1. Enter the authorized authentication password provided by EatMe Global.
-2. Once the platform ID field is enabled, select **EatMe Platform**.
+2. Once the platform ID field is enabled, select **EatMe Platform Id**.
 3. Leave the **Connect ID** field unselected.
 4. **Note**: Ensure the wallet payments option remains disabled.
 
