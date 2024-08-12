@@ -6,12 +6,12 @@ title: How To Create A POS Restaurant
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
 3. [Adding a POS Restaurant](#adding-a-pos-restaurant)
-   - [Restaurant Details](#restaurant-details)
-   - [Company Details](#company-details)
-   - [Connect Account Details](#connect-account-details)
-   - [Restaurant Logo & Agreement](#restaurant-logo--agreement)
-4. [Final Step](#final-step)
 
+   * [Restaurant Details](#restaurant-details)
+   * [Company Details](#company-details)
+   * [Connect Account Details](#connect-account-details)
+   * [Restaurant Logo & Agreement](#restaurant-logo--agreement)
+4. [Final Step](#final-step)
 
 ## Introduction
 
@@ -61,8 +61,8 @@ To set the restaurant's location:
 
 Next, input the following details:
 
-* **Sales Manager's Name**: Enter the assigned Sales Manager's name.
-* **Restaurant Category**: Select the appropriate category based on the type of restaurant.
+* **Sales Manager's Name**: Select the assigned Sales Manager's name.
+* **Restaurant Category**: Select the default restaurant category - Default: 2
 
 ![Sales manager and Restaurant Category details](/img/sales-manager-restaurant-category-custom-.png "Sales manager and Restaurant Category details")
 
@@ -94,7 +94,7 @@ To configure the Connect Account:
 ### Restaurant Logo & Agreement
 
 * **Restaurant Logo**: If the client hasn’t provided a logo, search online and upload it.
-* **Agreement**: Typically, agreements are not uploaded, so upload a blank PDF document as a placeholder.
+* **Agreement**: Request for the agreement from the Sales department and upload the document. If the document isn't provided upload a blank PDF document as a placeholder.
 
 To upload the agreement document:
 
@@ -109,4 +109,3 @@ To upload the agreement document:
 After all required details are entered and verified, the **Create** button will be enabled to finalize the restaurant creation process.
 
 ![Adding the restaurant](/img/create-pos-restaurant-custom-.png "Adding the restaurant")
-
