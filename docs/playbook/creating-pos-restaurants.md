@@ -19,7 +19,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 ## Getting Started
 
-To begin, access the Admin Panel website and authenticate using your authorized email and password, as depicted below.
+To begin, access the [Admin Panel website](https://admin.eatmeglobal.com/) and authenticate using your authorized email and password, as depicted below.
 
 ![Login UI](/img/login-custom-.png "Login UI")
 
@@ -52,7 +52,7 @@ Within the modal, provide the following information:
 For more information:
 
 * Follow the steps below to obtain the city using the postal code.
-* Visit the following website : <https://www.mingproperty.sg/singapore-district-code/>[](https://www.mingproperty.sg/singapore-district-code/)
+* Visit the following website : [Website](https://www.mingproperty.sg/singapore-district-code/)[](https://www.mingproperty.sg/singapore-district-code/)
 * Then follow the guide mentioned at the website to obtain the details of the city.
 
 ![Create new POS restaurant Modal](/img/restaurant-details-custom-pos.png "Create new POS restaurant Modal")
