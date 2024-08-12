@@ -90,19 +90,26 @@ Select the **Payments Only** option. This will automatically disable the **Servi
 
 ### Service Types
 
-In most cases, the **Service Types** section is disabled when **Payments Only** is selected. However, if applicable, enable the following options based on the restaurant's requirements.:
+In most cases, the **Service Types** section is disabled when **Payments Only** is selected. However, if applicable, enable the following options based on the restaurant's requirements:
+
+For Mobile Service Types:
 
 * **Delivery**
-* **Pick up**
-* **Dine-in** (for Mobile Service Types)
-* **Dine-in and Pick up** (for Web Service Types)
+* **Pick Up**
+* **Dine-in** 
 
 For Web Service Types:
+
+* **Dine-in and Pick Up** 
+
+![Restaurant service types selection](/img/service-types-.png "Restaurant service types selection")
+
+For Sales Team Information:
 
 * Select the **Manager Name** to the restaurant Sales Manager’s name.
 * Select the **Restaurant Category** to the default value - Default: 2
 
-![Restaurant service types selection](/img/restaurant-type-service-types-custom-.png "Restaurant service types selection")
+![Sales Information - Payments Only](/img/sales-information-payments-only.png "Sales Information ")
 
 In the **Tax and Payment Types** section:
 
@@ -135,7 +142,7 @@ Set the **Billing Type** to **Unlimited** and configure the **Unlimited Charge P
 
 ### Transaction Charges
 
-Set the values for **Local Cards**, **International Cards**, and the Other cards charges. Usually the Other cards charges are equal to the International Cards charges, These Values are determined according to the client's agreement.
+Set the values for **Local Cards**, **International Cards**, and **Other Cards** charges. Usually the **Other Cards** charges are equal to the **International Cards** charges, these values are determined according to the client's agreement.
 
 **Note:** The **Online** and **Offline** transaction fixed fees are also determined by the agreement.
 
@@ -161,9 +168,9 @@ Set the restaurant's active hours, which will be displayed on the website. Use t
 
 Configure the **Auto Pause** feature to specify the restaurant's inactive hours (e.g., lunch breaks).
 
-* Set the start and end times using the clock icon or by entering the time manually. This applies to both the website and the merchant app.
+* Set the start and end times using the clock icon or by entering the time manually. This can be applied to both the website and the merchant app induvidually.
 
-**Note:** This feature is useful for restaurants that provide delivery and pickup services and is applicable to all days.
+**Note:** This feature is useful for restaurants that provide delivery and pickup services and is applicable to all days and this is set according to the requirements.
 
 ![Restaurant Auto Pause](/img/auto-pause-custom-.png "Restaurant Auto Pause")
 
