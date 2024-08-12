@@ -6,21 +6,21 @@ title: How To Create A Payments-Only Restaurant
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
 3. [Adding a Payments-Only Restaurant](#adding-a-payments-only-restaurant)
-   - [Restaurant Details](#restaurant-details)
-   - [Restaurant Type](#restaurant-type)
-   - [Service Types](#service-types)
-   - [Wallet Types](#wallet-types)
-   - [Pickup Web Link Options & Delivery Web Link Options](#pickup-web-link-options--delivery-web-link-options)
-   - [Billing Type Details](#billing-type-details)
-   - [Transaction Charges](#transaction-charges)
-   - [Business Details](#business-details)
-   - [Restaurant Opening Hours](#restaurant-opening-hours)
-   - [Restaurant Auto Pause](#restaurant-auto-pause)
-   - [Cuisine Types and Diet Types](#cuisine-types-and-diet-types)
-   - [Restaurant Images](#restaurant-images)
-   - [Receipt Details](#receipt-details)
-4. [Final Step](#final-step)
 
+   * [Restaurant Details](#restaurant-details)
+   * [Restaurant Type](#restaurant-type)
+   * [Service Types](#service-types)
+   * [Wallet Types](#wallet-types)
+   * [Pickup Web Link Options & Delivery Web Link Options](#pickup-web-link-options--delivery-web-link-options)
+   * [Billing Type Details](#billing-type-details)
+   * [Transaction Charges](#transaction-charges)
+   * [Business Details](#business-details)
+   * [Restaurant Opening Hours](#restaurant-opening-hours)
+   * [Restaurant Auto Pause](#restaurant-auto-pause)
+   * [Cuisine Types and Diet Types](#cuisine-types-and-diet-types)
+   * [Restaurant Images](#restaurant-images)
+   * [Receipt Details](#receipt-details)
+4. [Final Step](#final-step)
 
 ## Introduction
 
@@ -48,13 +48,13 @@ To initiate the creation of a Payments-Only Restaurant, access the **Restaurant*
 
 Populate the following fields with the appropriate restaurant information:
 
-- **Restaurant Name**
-- **Suburb**
-- **Address**
-- **Contact Number**
-- **Mobile Number**
-- **Latitude & Longitude**
-- **Google Map Link**
+* **Restaurant Name**
+* **Suburb**
+* **Address**
+* **Contact Number**
+* **Mobile Number**
+* **Latitude & Longitude**
+* **Google Map Link**
 
 For latitude and longitude extraction:
 
@@ -67,18 +67,18 @@ For latitude and longitude extraction:
 
 Configure the following parameters:
 
-- **Delivery Radius (KM)** - Default: 10
-- **Ping Radius (KM)** - Default: 5
-- **Direct Delivery Radius (KM)** - Default: 10
-- **Restaurant Preparation Time (Min)** - Default: 25
+* **Delivery Radius (KM)** - Default: 10
+* **Ping Radius (KM)** - Default: 5
+* **Direct Delivery Radius (KM)** - Default: 10
+* **Restaurant Preparation Time (Min)** - Default: 25
 
 **Note:** The fields **What's New/Featured** and **Restaurant Category** are optional and can be skipped.
 
 Additional details:
 
-1. **Delivery Radius** defines the maximum range for restaurant deliveries.
-2. **Ping Radius** is the distance covered around a pinned location, forming a circular area.
-3. **Direct Delivery Radius** specifies the range within which the restaurant delivers using its own logistics.
+1. **Delivery Radius** *defines the maximum range for restaurant deliveries.*
+2. **Ping Radius** *is the distance covered around a pinned location, forming a circular area.*
+3. **Direct Delivery Radius** *specifies the range within which the restaurant delivers using its own logistics.*
 
 ![Delivery Radius](/img/delivery-ranges-custom-.png "Delivery Radius")
 
@@ -92,22 +92,22 @@ Select the **Payments Only** option. This will automatically disable the **Servi
 
 In most cases, the **Service Types** section is disabled when **Payments Only** is selected. However, if applicable, enable the following options based on the restaurant's requirements.:
 
-- **Delivery**
-- **Pick up**
-- **Dine-in** (for Mobile Service Types)
-- **Dine-in and Pick up** (for Web Service Types)
+* **Delivery**
+* **Pick up**
+* **Dine-in** (for Mobile Service Types)
+* **Dine-in and Pick up** (for Web Service Types)
 
 For Web Service Types:
 
-- Set the **Manager Name** to the restaurant Sales Manager’s name.
-- Select the **Restaurant Category** based on the restaurant's specific characteristics.
+* Select the **Manager Name** to the restaurant Sales Manager’s name.
+* Select the **Restaurant Category** to the default value - Default: 2.
 
 ![Restaurant service types selection](/img/restaurant-type-service-types-custom-.png "Restaurant service types selection")
 
 In the **Tax and Payment Types** section:
 
-- Set **Pickup Service Charge** and **Per Order Charge** to zero (0).
-- Leave the **Web App Payment Types** checkboxes unchecked, as they are unnecessary.
+* Set **Pickup Service Charge** and **Per Order Charge** to zero (0).
+* Leave the **Web App Payment Types** checkboxes unchecked, as they are unnecessary.
 
 **Note:** The **GST**, **Per Order Minimum Charge**, and **Dine-in Service Charges** are predefined and cannot be altered.
 
@@ -135,9 +135,9 @@ Set the **Billing Type** to **Unlimited** and configure the **Unlimited Charge P
 
 ### Transaction Charges
 
-Set the values for **Local Cards**, **International Cards**, and other payment methods according to the client's agreement.
+Set the values for **Local Cards**, **International Cards**, and the Other cards charges. Usually the Other cards charges are equal to the International Cards charges, These Values are determined according to the client's agreement.
 
-**Note:** The **Online** and **Offline** transaction fees are also determined by the agreement.
+**Note:** The **Online** and **Offline** transaction fixed fees are also determined by the agreement.
 
 ![Transaction charging rates](/img/transaction-charges-custom-.png "Transaction charging rates")
 
@@ -151,7 +151,7 @@ Fill in the business-specific details provided by the client. These are critical
 
 Set the restaurant's active hours, which will be displayed on the website. Use the clock icon or manually enter the time.
 
-- Use the **Set At Once** button to apply the same opening and closing times across all days.
+* Use the **Set At Once** button to apply the same opening and closing times across all days.
 
 **Note:** Timing can be customized for individual days if necessary.
 
@@ -161,7 +161,7 @@ Set the restaurant's active hours, which will be displayed on the website. Use t
 
 Configure the **Auto Pause** feature to specify the restaurant's inactive hours (e.g., lunch breaks).
 
-- Set the start and end times using the clock icon or by entering the time manually. This applies to both the website and the merchant app.
+* Set the start and end times using the clock icon or by entering the time manually. This applies to both the website and the merchant app.
 
 **Note:** This feature is useful for restaurants that provide delivery and pickup services and is applicable to all days.
 
@@ -177,9 +177,9 @@ Configure the **Auto Pause** feature to specify the restaurant's inactive hours 
 
 Upload an image of the restaurant, either provided by the client or sourced online.
 
-- The **Tax Ratio** is fixed and cannot be changed.
-- The **Facilities** and **Restaurant Management System Link** fields are optional and can remain in their default state.
-- Upload the restaurant's logo, either provided by the client or sourced online.
+* The **Tax Ratio** is fixed and cannot be changed.
+* The **Facilities** and **Restaurant Management System Link** fields are optional and can remain in their default state.
+* Upload the restaurant's logo, either provided by the client or sourced online.
 
 ![Restaurant Images](/img/restaurant-images-custom-.png "Restaurant Images")
 
