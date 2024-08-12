@@ -53,18 +53,18 @@ Within the modal, provide the following information:
 
 To set the restaurant's location:
 
-1. Search for the restaurant on the map.
+1. Search for the restaurant on the map or enter the restaurant's name and find the location.
 2. Double-click the exact location to automatically set the coordinates.
 3. The **Google Map Link**, **Latitude**, and **Longitude** fields will be populated automatically.
 
 ![Restaurant location details](/img/location-details-custom-pos.png "Restaurant location details")
 
-Next, input the following details:
+Next, select the following details:
 
-* **Sales Manager's Name**: Select the assigned Sales Manager's name.
-* **Restaurant Category**: Select the default restaurant category - Default: 2
+* **Sales Manager's Name**: The assigned Sales Manager's name.
+* **Restaurant Category**: The default restaurant category - Default: 2
 
-![Sales manager and Restaurant Category details](/img/sales-manager-restaurant-category-custom-.png "Sales manager and Restaurant Category details")
+![Sales manager and Restaurant Category details](/img/sales-information-pos.png "Sales manager and Restaurant Category details")
 
 ### Company Details
 
@@ -86,10 +86,10 @@ To configure the Connect Account:
 
 1. Enter the authorized authentication password provided by EatMe Global.
 2. Once the platform ID field is enabled, select **EatMe Platform Id**.
-3. Leave the **Connect ID** field unselected.
+3. Then select the **Connect ID** that end with "**XshBpq**" on production.
 4. **Note**: Ensure the wallet payments option remains disabled.
 
-![Connect Account Details](/img/connect-account-details-custom-.png "Connect Account Details")
+![Connect Account Details](/img/connect-account-details-pos.png "Connect Account Details")
 
 ### Restaurant Logo & Agreement
 
