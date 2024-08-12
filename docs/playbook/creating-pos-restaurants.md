@@ -49,9 +49,15 @@ Within the modal, provide the following information:
 * **Time Zone**
 * **Postal Code**
 
+For more information:
+
+* Follow the steps below to obtain the city using the postal code.
+* Visit the following website : <https://www.mingproperty.sg/singapore-district-code/>[](https://www.mingproperty.sg/singapore-district-code/)
+* Then follow the guide mentioned at the website to obtain the details of the city.
+
 ![Create new POS restaurant Modal](/img/restaurant-details-custom-pos.png "Create new POS restaurant Modal")
 
-To set the restaurant's location:
+[](https://www.mingproperty.sg/singapore-district-code/)To set the restaurant's location:
 
 1. Search for the restaurant on the map or enter the restaurant's name and find the location.
 2. Double-click the exact location to automatically set the coordinates.
