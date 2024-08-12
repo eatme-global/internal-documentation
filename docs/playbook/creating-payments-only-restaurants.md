@@ -28,7 +28,7 @@ This document serves as a detailed guide for creating a new Payments-Only Restau
 
 ## Getting Started
 
-To begin, navigate to the Admin Panel website and authenticate using your authorized email address and password.
+To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) and authenticate using your authorized email address and password.
 
 ![Login UI](/img/login-custom-.png "Login UI")
 
