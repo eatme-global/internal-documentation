@@ -108,6 +108,7 @@ For Sales Team Information:
 
 * Select the **Manager Name** to the restaurant Sales Manager’s name.
 * Select the **Restaurant Category** to the default value - Default: 2
+* **Note:** This section is required to be selected even if the payments only option is checked and service types is disabled.
 
 ![Sales Information - Payments Only](/img/sales-information-payments-only.png "Sales Information ")
 
