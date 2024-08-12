@@ -100,7 +100,7 @@ In most cases, the **Service Types** section is disabled when **Payments Only** 
 For Web Service Types:
 
 * Select the **Manager Name** to the restaurant Sales Manager’s name.
-* Select the **Restaurant Category** to the default value - Default: 2.
+* Select the **Restaurant Category** to the default value - Default: 2
 
 ![Restaurant service types selection](/img/restaurant-type-service-types-custom-.png "Restaurant service types selection")
 
