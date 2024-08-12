@@ -93,8 +93,8 @@ To configure the Connect Account:
 
 ### Restaurant Logo & Agreement
 
-* **Restaurant Logo**: If the client hasn’t provided a logo, search online and upload it.
-* **Agreement**: Request for the agreement from the Sales department and upload the document. If the document isn't provided upload a blank PDF document as a placeholder.
+* **Restaurant Logo**: If the client hasn’t provided a logo, search online and upload it and make sure the logo is resized to 1024 x 1024 pixels, aspect ratio of 1:1 and does not exceed 2 MB
+* **Agreement**: Request for the agreement from the sales department and upload the document. If the document isn't provided upload a blank PDF document as a placeholder.
 
 To upload the agreement document:
 
