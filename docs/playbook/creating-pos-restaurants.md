@@ -1,17 +1,7 @@
 ---
 title: How To Create A POS Restaurant
 ---
-## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Adding a POS Restaurant](#adding-a-pos-restaurant)
-
-   * [Restaurant Details](#restaurant-details)
-   * [Company Details](#company-details)
-   * [Connect Account Details](#connect-account-details)
-   * [Restaurant Logo & Agreement](#restaurant-logo--agreement)
-4. [Final Step](#final-step)
 
 ## Introduction
 
@@ -52,7 +42,7 @@ Within the modal, provide the following information:
 For more information:
 
 * Follow the steps below to obtain the city using the postal code.
-* Visit the following website : [Website](https://www.mingproperty.sg/singapore-district-code/)[](https://www.mingproperty.sg/singapore-district-code/)
+* Visit the following [Website](https://www.mingproperty.sg/singapore-district-code/)[](https://www.mingproperty.sg/singapore-district-code/)
 * Then follow the guide mentioned at the website to obtain the details of the city.
 
 ![Create new POS restaurant Modal](/img/restaurant-details-custom-pos.png "Create new POS restaurant Modal")
