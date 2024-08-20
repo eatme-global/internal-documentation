@@ -11,7 +11,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 - To begin, access the [Admin Panel website](https://admin.eatmeglobal.com/) and authenticate using your authorized email and password, as depicted below.
 
+<center>
+
 ![Login UI](/img/login-custom-.png "Login UI")
+
+</center>
 
 ---
 
