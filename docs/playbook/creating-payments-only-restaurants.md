@@ -1,5 +1,5 @@
 ---
-title: How To Create A Payments-Only Restaurantt
+title: How To Create A Payments-Only Restaurant
 ---
 ## 1. Introduction
 
