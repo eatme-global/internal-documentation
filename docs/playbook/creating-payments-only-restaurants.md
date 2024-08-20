@@ -1,19 +1,21 @@
 ---
 title: How To Create A Payments-Only Restaurant
 ---
-
-
-## Introduction
+## 1. Introduction
 
 This document serves as a detailed guide for creating a new Payments-Only Restaurant within the EatMe Global Admin Panel.
 
-## Getting Started
+---
+
+## 2. Getting Started
 
 To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) and authenticate using your authorized email address and password.
 
 ![Login UI](/img/login-custom-.png "Login UI")
 
-## Adding a Payments-Only Restaurant
+---
+
+## 3. Adding a Payments-Only Restaurant
 
 **Note:** Certain fields are non-essential and can be disregarded as outlined in this guide.
 
@@ -21,21 +23,19 @@ Upon successful authentication, the system will redirect you to the Admin Panel 
 
 ![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
 
-To initiate the creation of a Payments-Only Restaurant, access the **Restaurant** dropdown from the side navigation menu on the left, then select **Create Restaurant**.
+---
 
-![Add a new Restaurant](/img/create-restaurant-custom-.png "Add a new Restaurant")
-
-### Restaurant Details
+### 3.1. Restaurant Details
 
 Populate the following fields with the appropriate restaurant information:
 
-* **Restaurant Name**
-* **Suburb**
-* **Address**
-* **Contact Number**
-* **Mobile Number**
-* **Latitude & Longitude**
-* **Google Map Link**
+- **Restaurant Name**
+- **Suburb**
+- **Address**
+- **Contact Number**
+- **Mobile Number**
+- **Latitude & Longitude**
+- **Google Map Link**
 
 For latitude and longitude extraction:
 
@@ -46,141 +46,172 @@ For latitude and longitude extraction:
 
 ![Restaurant Details](/img/restaurant-details-custom-.png "Restaurant Details")
 
+---
+
 Configure the following parameters:
 
-* **Delivery Radius (KM)** - Default: 10
-* **Ping Radius (KM)** - Default: 5
-* **Direct Delivery Radius (KM)** - Default: 10
-* **Restaurant Preparation Time (Min)** - Default: 25
+- **Delivery Radius (KM)** - Default: 10
+- **Ping Radius (KM)** - Default: 5
+- **Direct Delivery Radius (KM)** - Default: 10
+- **Restaurant Preparation Time (Min)** - Default: 25
 
 **Note:** The fields **What's New/Featured** and **Restaurant Category** are optional and can be skipped.
 
 Additional details:
 
-1. **Delivery Radius** *defines the maximum range for restaurant deliveries.*
-2. **Ping Radius** *is the distance covered around a pinned location, forming a circular area.*
-3. **Direct Delivery Radius** *specifies the range within which the restaurant delivers using its own logistics.*
+- **Delivery Radius** defines the maximum range for restaurant deliveries.
+- **Ping Radius** is the distance covered around a pinned location, forming a circular area.
+- **Direct Delivery Radius** specifies the range within which the restaurant delivers using its own logistics.
 
 ![Delivery Radius](/img/delivery-ranges-custom-.png "Delivery Radius")
 
-### Restaurant Type
+---
+
+### 3.2. Restaurant Type
 
 Select the **Payments Only** option. This will automatically disable the **Service Types** section, as it is irrelevant for this configuration.
 
 ![Restaurant Type Selection](/img/restaurant-type-custom-.png "Restaurant Type Selection")
 
-### Service Types
+---
+
+### 3.3. Service Types
 
 In most cases, the **Service Types** section is disabled when **Payments Only** is selected. However, if applicable, enable the following options based on the restaurant's requirements:
 
 For Mobile Service Types:
 
-* **Delivery**
-* **Pick Up**
-* **Dine-in** 
+- **Delivery**
+- **Pick Up**
+- **Dine-in** 
 
 For Web Service Types:
 
-* **Dine-in and Pick Up** 
+- **Dine-in and Pick Up**
 
 ![Restaurant service types selection](/img/service-types-.png "Restaurant service types selection")
 
-For Sales Team Information:
+---
 
-* Select the **Manager Name** to the restaurant Sales Manager’s name.
-* Select the **Restaurant Category** to the default value - Default: 2
+### 3.4. Sales Team Information
+
+- Select the **Manager Name** to the restaurant Sales Manager’s name.
+- Select the **Restaurant Category** to the default value - Default: 2
 
 **Note:** This section is required to be selected even if the payments only option is checked and service types is disabled.
 
-![Sales Information - Payments Only](/img/sales-information-payments-only.png "Sales Information ")
+![Sales Information - Payments Only](/img/sales-information-payments-only.png "Sales Information")
+
+---
+
+### 3.5. Tax and Payment Types
 
 In the **Tax and Payment Types** section:
 
-* Set **Pickup Service Charge** and **Per Order Charge** to zero (0).
-* Leave the **Web App Payment Types** checkboxes unchecked, as they are unnecessary.
+- Set **Pickup Service Charge** and **Per Order Charge** to zero (0).
+- Leave the **Web App Payment Types** checkboxes unchecked, as they are unnecessary.
 
 **Note:** The **GST**, **Per Order Minimum Charge**, and **Dine-in Service Charges** are predefined and cannot be altered.
 
 ![Tax and payment types](/img/web-service-types-custom-.png "Tax and payment types")
 
-### Wallet Types
+---
 
-This section pertains to digital wallet payment methods. No options need to be enabled, all should remain in their default (off) state.
+### 3.6. Wallet Types
+
+This section pertains to digital wallet payment methods. No options need to be enabled; all should remain in their default (off) state.
 
 ![Wallet Types](/img/wallet-charges-custom-.png "Wallet Types")
 
-### Pickup Web Link Options & Delivery Web Link Options
+---
+
+### 3.7. Pickup Web Link Options & Delivery Web Link Options
 
 These sections do not require any modifications, leave all options at their default setting (**No**).
 
 ![Pickup Web Link Options & Delivery Web Link Option](/img/restaurant-pickup-web-link-options-delivery-web-link-options-custom-.png "Pickup Web Link Options & Delivery Web Link Option")
 
-### Billing Type Details
+---
 
-Set the **Billing Type** to **Unlimited** and configure the **Unlimited Charge Per Month** to zero (0).
+### 3.8. Billing Type Details
+
+- Set the **Billing Type** to **Unlimited** and configure the **Unlimited Charge Per Month** to zero (0).
 
 **Note:** The **Free Tier** billing type is currently not in use.
 
 ![Billing type Details](/img/billing-type-custom-.png "Billing type Details")
 
-### Transaction Charges
+---
 
-Set the values for **Local Cards**, **International Cards**, and **Other Cards** charges. Usually the **Other Cards** charges are equal to the **International Cards** charges, these values are determined according to the client's agreement.
+### 3.9. Transaction Charges
+
+- Set the values for **Local Cards**, **International Cards**, and **Other Cards** charges. Usually, the **Other Cards** charges are equal to the **International Cards** charges; these values are determined according to the client's agreement.
 
 **Note:** The **Online** and **Offline** transaction fixed fees are also determined by the agreement.
 
 ![Transaction charging rates](/img/transaction-charges-custom-.png "Transaction charging rates")
 
-### Business Details
+---
 
-Fill in the business-specific details provided by the client. These are critical fields, including the **Registered PVS/UEN** (business identification number).
+### 3.10. Business Details
+
+- Fill in the business-specific details provided by the client. These are critical fields, including the **Registered PVS/UEN** (business identification number).
 
 ![Business Details](/img/business-details-custom-.png "Business Details")
 
-### Restaurant Opening Hours
+---
 
-Set the restaurant's active hours, which will be displayed on the website. Use the clock icon or manually enter the time.
+### 3.11. Restaurant Opening Hours
 
-* Use the **Set At Once** button to apply the same opening and closing times across all days.
+- Set the restaurant's active hours, which will be displayed on the website. Use the clock icon or manually enter the time.
+- Use the **Set At Once** button to apply the same opening and closing times across all days.
 
 **Note:** Timing can be customized for individual days if necessary.
 
 ![Restaurant Opening Hours](/img/opening-hours-custom-.png "Restaurant Opening Hours")
 
-### Restaurant Auto Pause
+---
 
-Configure the **Auto Pause** feature to specify the restaurant's inactive hours (e.g., lunch breaks).
+### 3.12. Restaurant Auto Pause
 
-* Set the start and end times using the clock icon or by entering the time manually. This can be applied to both the website and the merchant app induvidually.
+- Configure the **Auto Pause** feature to specify the restaurant's inactive hours (e.g., lunch breaks).
+- Set the start and end times using the clock icon or by entering the time manually. This can be applied to both the website and the merchant app individually.
 
-**Note:** This feature is useful for restaurants that provide delivery and pickup services and is applicable to all days and this is set according to the requirements.
+**Note:** This feature is useful for restaurants that provide delivery and pickup services and is applicable to all days, and this is set according to the requirements.
 
 ![Restaurant Auto Pause](/img/auto-pause-custom-.png "Restaurant Auto Pause")
 
-### Cuisine Types and Diet Types
+---
+
+### 3.13. Cuisine Types and Diet Types
 
 **Note:** This section is optional and can be left in its default state.
 
 ![Cuisine Types and Diet Types](/img/food-and-diet-types-custom-.png "Cuisine Types and Diet Types")
 
-### Restaurant Images
+---
 
-Upload an image of the restaurant, either provided by the client or sourced online.
+### 3.14. Restaurant Images
 
-* The **Tax Ratio** is fixed and cannot be changed.
-* The **Facilities** and **Restaurant Management System Link** fields are optional and can remain in their default state.
-* Upload the restaurant's logo, either provided by the client or sourced online.
+- Upload an image of the restaurant, either provided by the client or sourced online.
+- The **Tax Ratio** is fixed and cannot be changed.
+- The **Facilities** and **Restaurant Management System Link** fields are optional and can remain in their default state.
+- Upload the restaurant's logo, either provided by the client or sourced online. If the logo cannot be sourced online, upload a blank image as a placeholder.
 
 ![Restaurant Images](/img/restaurant-images-custom-.png "Restaurant Images")
 
-### Receipt Details
+---
+
+### 3.15. Receipt Details
 
 **Note:** This section is optional and can be left in its default state.
 
 ![Receipt Details](/img/receipt-details-custom-.png "Receipt Details")
 
-### Final Step
+---
 
-Ensure all required fields are populated, then click the **Add** button at the bottom of the receipt details section to finalize the creation of the restaurant.
+### 3.16. Final Step
+
+- Ensure all required fields are populated, then click the **Add** button at the bottom of the receipt details section to finalize the creation of the restaurant.
 
 ![Creating the new restaurant](/img/add-restaurant-custom-.png "Creating the new restaurant")
