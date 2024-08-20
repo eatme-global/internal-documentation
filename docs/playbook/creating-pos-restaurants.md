@@ -1,13 +1,13 @@
 ---
 title: How To Create A POS Restaurant
 ---
-## Introduction
+## 1. Introduction
 
 This document serves as a detailed guide for creating a new POS Restaurant within the EatMe Global Admin Panel.
 
 ---
 
-## Getting Started
+## 2. Getting Started
 
 - To begin, access the [Admin Panel website](https://admin.eatmeglobal.com/) and authenticate using your authorized email and password, as depicted below.
 
@@ -15,7 +15,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 ---
 
-## Adding a POS Restaurant
+## 3. Adding a POS Restaurant
 
 - Upon successful authentication, you will be redirected to the Admin Panel interface.
 
@@ -31,7 +31,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 ---
 
-### Restaurant Details
+### 3.1 Restaurant Details
 
 - Within the modal, provide the following information:
 
@@ -68,7 +68,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 ---
 
-### Company Details
+### 3.2 Company Details
 
 - Complete the company information by entering the following fields:
 
@@ -84,7 +84,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 ---
 
-### Connect Account Details
+### 3.3 Connect Account Details
 
 - To configure the Connect Account:
 
@@ -97,7 +97,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 ---
 
-### Restaurant Logo & Agreement
+### 3.4 Restaurant Logo & Agreement
 
 - **Restaurant Logo**: If the client hasn’t provided a logo, search online and upload it. Ensure the logo is resized to 1024 x 1024 pixels, with an aspect ratio of 1:1, and does not exceed 2 MB. If the logo cannot be sourced online, upload a blank image as a placeholder.
 
@@ -113,7 +113,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 ---
 
-### Final Step
+## 4. Final Step
 
 - After all required details are entered and verified, the **Create** button will be enabled to finalize the restaurant creation process.
 
