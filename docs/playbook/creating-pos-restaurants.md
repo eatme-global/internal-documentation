@@ -13,7 +13,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Login UI](/img/login-custom-.png "Login UI")
+
+</div>
 
 </center>
 
@@ -25,7 +29,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
+
+</div>
 
 </center>
 
@@ -33,7 +41,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![POS restaurants navigation](/img/pos-restaurants-custom-.png "POS restaurants navigation")
+
+</div>
 
 </center>
 
@@ -41,7 +53,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Create a new POS restaurant](/img/add-restaurant-custom-pos.png "Create a new POS restaurant")
+
+</div>
 
 </center>
 
@@ -67,7 +83,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Create new POS restaurant Modal](/img/restaurant-details-custom-pos.png "Create new POS restaurant Modal")
+
+</div>
 
 </center>
 
@@ -79,7 +99,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Restaurant location details](/img/location-details-custom-pos.png "Restaurant location details")
+
+</div>
 
 </center>
 
@@ -90,7 +114,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Sales manager and Restaurant Category details](/img/sales-information-pos.png "Sales manager and Restaurant Category details")
+
+</div>
 
 </center>
 
@@ -110,7 +138,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Company details](/img/company-details-custom-.png "Company details")
+
+</div>
 
 </center>
 
@@ -127,7 +159,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Connect Account Details](/img/connect-account-details-pos.png "Connect Account Details")
+
+</div>
 
 </center>
 
@@ -147,7 +183,11 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Restaurant Logo & Agreement](/img/restaurant-logo-agreement-custom-.png "Restaurant Logo & Agreement")
+
+</div>
 
 </center>
 
@@ -159,6 +199,10 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Adding the restaurant](/img/create-pos-restaurant-custom-.png "Adding the restaurant")
+
+</div>
 
 </center>
