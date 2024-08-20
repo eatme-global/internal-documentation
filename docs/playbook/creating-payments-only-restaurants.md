@@ -27,7 +27,7 @@ Upon successful authentication, the system will redirect you to the Admin Panel 
 
 <center>
 
-![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
+<kbd>![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")</kbd>
 
 </center>
 
