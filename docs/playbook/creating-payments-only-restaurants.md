@@ -1,13 +1,13 @@
 ---
 title: How To Create A Payments-Only Restaurant
 ---
-## Introduction
+## 1. Introduction
 
 This document serves as a detailed guide for creating a new Payments-Only Restaurant within the EatMe Global Admin Panel.
 
 ---
 
-## Getting Started
+## 2. Getting Started
 
 To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) and authenticate using your authorized email address and password.
 
@@ -15,7 +15,7 @@ To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) 
 
 ---
 
-## Adding a Payments-Only Restaurant
+## 3. Adding a Payments-Only Restaurant
 
 **Note:** Certain fields are non-essential and can be disregarded as outlined in this guide.
 
@@ -25,7 +25,7 @@ Upon successful authentication, the system will redirect you to the Admin Panel 
 
 ---
 
-### Restaurant Details
+### 3.1 Restaurant Details
 
 Populate the following fields with the appropriate restaurant information:
 
@@ -48,6 +48,8 @@ For latitude and longitude extraction:
 
 ---
 
+### 3.2 Configure Parameters
+
 Configure the following parameters:
 
 - **Delivery Radius (KM)** - Default: 10
@@ -67,7 +69,7 @@ Additional details:
 
 ---
 
-### Restaurant Type
+### 3.3 Restaurant Type
 
 Select the **Payments Only** option. This will automatically disable the **Service Types** section, as it is irrelevant for this configuration.
 
@@ -75,7 +77,7 @@ Select the **Payments Only** option. This will automatically disable the **Servi
 
 ---
 
-### Service Types
+### 3.4 Service Types
 
 In most cases, the **Service Types** section is disabled when **Payments Only** is selected. However, if applicable, enable the following options based on the restaurant's requirements:
 
@@ -83,7 +85,7 @@ For Mobile Service Types:
 
 - **Delivery**
 - **Pick Up**
-- **Dine-in** 
+- **Dine-in**
 
 For Web Service Types:
 
@@ -93,7 +95,7 @@ For Web Service Types:
 
 ---
 
-### Sales Team Information
+### 3.5 Sales Team Information
 
 - Select the **Manager Name** to the restaurant Sales Manager’s name.
 - Select the **Restaurant Category** to the default value - Default: 2
@@ -104,7 +106,7 @@ For Web Service Types:
 
 ---
 
-### Tax and Payment Types
+### 3.6 Tax and Payment Types
 
 In the **Tax and Payment Types** section:
 
@@ -117,7 +119,7 @@ In the **Tax and Payment Types** section:
 
 ---
 
-### Wallet Types
+### 3.7 Wallet Types
 
 This section pertains to digital wallet payment methods. No options need to be enabled; all should remain in their default (off) state.
 
@@ -125,7 +127,7 @@ This section pertains to digital wallet payment methods. No options need to be e
 
 ---
 
-### Pickup Web Link Options & Delivery Web Link Options
+### 3.8 Pickup Web Link Options & Delivery Web Link Options
 
 These sections do not require any modifications, leave all options at their default setting (**No**).
 
@@ -133,7 +135,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Billing Type Details
+### 3.9 Billing Type Details
 
 - Set the **Billing Type** to **Unlimited** and configure the **Unlimited Charge Per Month** to zero (0).
 
@@ -143,7 +145,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Transaction Charges
+### 3.10 Transaction Charges
 
 - Set the values for **Local Cards**, **International Cards**, and **Other Cards** charges. Usually, the **Other Cards** charges are equal to the **International Cards** charges; these values are determined according to the client's agreement.
 
@@ -153,7 +155,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Business Details
+### 3.11 Business Details
 
 - Fill in the business-specific details provided by the client. These are critical fields, including the **Registered PVS/UEN** (business identification number).
 
@@ -161,7 +163,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Restaurant Opening Hours
+### 3.12 Restaurant Opening Hours
 
 - Set the restaurant's active hours, which will be displayed on the website. Use the clock icon or manually enter the time.
 - Use the **Set At Once** button to apply the same opening and closing times across all days.
@@ -172,7 +174,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Restaurant Auto Pause
+### 3.13 Restaurant Auto Pause
 
 - Configure the **Auto Pause** feature to specify the restaurant's inactive hours (e.g., lunch breaks).
 - Set the start and end times using the clock icon or by entering the time manually. This can be applied to both the website and the merchant app individually.
@@ -183,7 +185,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Cuisine Types and Diet Types
+### 3.14 Cuisine Types and Diet Types
 
 **Note:** This section is optional and can be left in its default state.
 
@@ -191,7 +193,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Restaurant Images
+### 3.15 Restaurant Images
 
 - Upload an image of the restaurant, either provided by the client or sourced online.
 - The **Tax Ratio** is fixed and cannot be changed.
@@ -202,7 +204,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Receipt Details
+### 3.16 Receipt Details
 
 **Note:** This section is optional and can be left in its default state.
 
@@ -210,7 +212,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ---
 
-### Final Step
+## 4. Final Step
 
 - Ensure all required fields are populated, then click the **Add** button at the bottom of the receipt details section to finalize the creation of the restaurant.
 
