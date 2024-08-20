@@ -13,7 +13,11 @@ To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) 
 
 <center>
 
-<kbd>![Login UI](/img/login-custom-.png "Login UI")</kbd>
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
+![Login UI](/img/login-custom-.png "Login UI")
+
+</div>
 
 </center>
 
@@ -27,7 +31,11 @@ Upon successful authentication, the system will redirect you to the Admin Panel 
 
 <center>
 
-<kbd>![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")</kbd>
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
+![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
+
+</div>
 
 </center>
 
@@ -54,7 +62,11 @@ For latitude and longitude extraction:
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Restaurant Details](/img/restaurant-details-custom-.png "Restaurant Details")
+
+</div>
 
 </center>
 
@@ -79,7 +91,11 @@ Additional details:
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Delivery Radius](/img/delivery-ranges-custom-.png "Delivery Radius")
+
+</div>
 
 </center>
 
@@ -91,7 +107,11 @@ Select the **Payments Only** option. This will automatically disable the **Servi
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Restaurant Type Selection](/img/restaurant-type-custom-.png "Restaurant Type Selection")
+
+</div>
 
 </center>
 
@@ -113,7 +133,11 @@ For Web Service Types:
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Restaurant service types selection](/img/service-types-.png "Restaurant service types selection")
+
+</div>
 
 </center>
 
@@ -128,7 +152,11 @@ For Web Service Types:
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Sales Information - Payments Only](/img/sales-information-payments-only.png "Sales Information")
+
+</div>
 
 </center>
 
@@ -145,7 +173,11 @@ In the **Tax and Payment Types** section:
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Tax and payment types](/img/web-service-types-custom-.png "Tax and payment types")
+
+</div>
 
 </center>
 
@@ -157,7 +189,11 @@ This section pertains to digital wallet payment methods. No options need to be e
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Wallet Types](/img/wallet-charges-custom-.png "Wallet Types")
+
+</div>
 
 </center>
 
@@ -169,7 +205,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Pickup Web Link Options & Delivery Web Link Option](/img/restaurant-pickup-web-link-options-delivery-web-link-options-custom-.png "Pickup Web Link Options & Delivery Web Link Option")
+
+</div>
 
 </center>
 
@@ -183,7 +223,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Billing type Details](/img/billing-type-custom-.png "Billing type Details")
+
+</div>
 
 </center>
 
@@ -197,7 +241,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Transaction charging rates](/img/transaction-charges-custom-.png "Transaction charging rates")
+
+</div>
 
 </center>
 
@@ -209,7 +257,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Business Details](/img/business-details-custom-.png "Business Details")
+
+</div>
 
 </center>
 
@@ -224,7 +276,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Restaurant Opening Hours](/img/opening-hours-custom-.png "Restaurant Opening Hours")
+
+</div>
 
 </center>
 
@@ -239,7 +295,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Restaurant Auto Pause](/img/auto-pause-custom-.png "Restaurant Auto Pause")
+
+</div>
 
 </center>
 
@@ -251,7 +311,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Cuisine Types and Diet Types](/img/food-and-diet-types-custom-.png "Cuisine Types and Diet Types")
+
+</div>
 
 </center>
 
@@ -266,7 +330,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Restaurant Images](/img/restaurant-images-custom-.png "Restaurant Images")
+
+</div>
 
 </center>
 
@@ -278,7 +346,11 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Receipt Details](/img/receipt-details-custom-.png "Receipt Details")
+
+</div>
 
 </center>
 
@@ -290,6 +362,10 @@ These sections do not require any modifications, leave all options at their defa
 
 <center>
 
+<div style="border: 2px solid rgba(0, 0, 0, 0.1); background-color: #ffffff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: fit-content; margin: auto;">
+
 ![Creating the new restaurant](/img/add-restaurant-custom-.png "Creating the new restaurant")
+
+</div>
 
 </center>
