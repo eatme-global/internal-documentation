@@ -13,7 +13,7 @@ To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) 
 
 <center>
 
-![Login UI](/img/login-custom-.png "Login UI")
+<kbd>![Login UI](/img/login-custom-.png "Login UI")</kbd>
 
 </center>
 
