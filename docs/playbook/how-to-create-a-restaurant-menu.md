@@ -20,7 +20,7 @@ This guide provides instructions on creating a structured spreadsheet template f
 ## 1.2 Column Headers
 
 - In the first row, create the following column headers to capture the necessary information:
-  - **Category **
+  - **Category**
   - **Sub-Category**
   - **Item Name**
   - **Description**
