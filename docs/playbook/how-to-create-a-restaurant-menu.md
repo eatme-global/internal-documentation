@@ -99,5 +99,5 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 
 ---
-
+# 2. Adding the items to the menu
 
