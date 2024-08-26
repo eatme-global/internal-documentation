@@ -10,14 +10,14 @@ This guide provides instructions on creating a structured spreadsheet template f
 ## 1.1 Create a New Spreadsheet
 
 - Open your preferred spreadsheet application (e.g., Microsoft Excel, Google Sheets).
-- Create a new spreadsheet and name it appropriately, such as "Restaurant Menu Data".
+- Create a new spreadsheet and name it appropriately, such as "Restaurant Menu Data or Setup".
 
 ---
 
 ## 1.2 Column Headers
 
 - In the first row, create the following column headers to capture the necessary information:
-  - **Category 1**
+  - **Category **
   - **Sub-Category**
   - **Item Name**
   - **Description**
@@ -33,8 +33,8 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ## 2.1 Category and Sub-Category
 
-- Create a column for the main category of the menu items. Categories are broad classifications such as "Appetizers," "Main Courses," "Desserts," etc.
-- Create a column for any sub-categories under the main category. Sub-categories provide further classification, such as "Vegan," "Gluten-Free," etc.
+-  Create a column for the main category of the menu items. Examples of categories include **Desserts, Beverages, Snacks,** etc.
+- Create a column for any sub-categories under the main category. For example, under Desserts, you might have sub-categories like **Ice Creams, Chocolate Mousse, or Cheesecakes**.
 
 ---
 
@@ -87,18 +87,14 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ## 3.2 Choice Groups
 
+## 3.2 Choice Groups
+
 - Create separate groups for different choice categories (e.g., sizes, flavors). Each group should have columns for:
   - **Choice**
-  - **Price**
+ - **Price** (if applicable; if all choices have the same price, this column can be left blank since the price will be on the item)
   - **Status**
 
----
-
-## 3.3 Specialized Sections
-
-- **Desserts Add-Ons:** Create a specific section for add-ons related to desserts, with columns for `Name`, `Price`, and `Status`.
-- **Pancakes Choices:** Create a specialized section for pancake options, including columns for `Choice`, `Price`, and `Status`.
 
 ---
 
-This structure ensures a comprehensive and organized approach to capturing all necessary details for each menu item and its corresponding customizations.
+
