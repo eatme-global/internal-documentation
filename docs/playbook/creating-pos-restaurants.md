@@ -11,11 +11,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 - To begin, access the [Admin Panel website](https://admin.eatmeglobal.com/) and authenticate using your authorized email and password, as depicted below.
 
-<center>
 
-![Login UI](/img/login-custom-.png "Login UI")
-
-</center>
 
 ---
 
@@ -23,27 +19,15 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 - Upon successful authentication, you will be redirected to the Admin Panel interface.
 
-<center>
 
-![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
-
-</center>
 
 - To initiate the creation of a POS restaurant, navigate to the **POS** dropdown within the left-hand side navigation menu and select **Restaurants** as shown below.
 
-<center>
 
-![POS restaurants navigation](/img/pos-restaurants-custom-.png "POS restaurants navigation")
-
-</center>
 
 - Click on the **Create Restaurant** button. A modal will appear, prompting you to input the necessary restaurant details.
 
-<center>
 
-![Create a new POS restaurant](/img/add-restaurant-custom-pos.png "Create a new POS restaurant")
-
-</center>
 
 ---
 
@@ -65,11 +49,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
   - Visit the following [Website](https://www.mingproperty.sg/singapore-district-code/)
   - Then follow the guide mentioned at the website to obtain the details of the city.
 
-<center>
 
-![Create new POS restaurant Modal](/img/restaurant-details-custom-pos.png "Create new POS restaurant Modal")
-
-</center>
 
 - To set the restaurant's location:
 
@@ -77,22 +57,14 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
   2. If the restaurant does not appear in the search results, manually navigate on the map to locate it and then double-click the exact location to pin it.
   3. The **Google Map Link**, **Latitude**, and **Longitude** fields will be populated automatically.
 
-<center>
 
-![Restaurant location details](/img/location-details-custom-pos.png "Restaurant location details")
-
-</center>
 
 - Next, select the following details:
 
   - **Sales Manager's Name**: The assigned Sales Manager's name.
   - **Restaurant Category**: The default restaurant category - Default: 2
 
-<center>
 
-![Sales manager and Restaurant Category details](/img/sales-information-pos.png "Sales manager and Restaurant Category details")
-
-</center>
 
 ---
 
@@ -108,11 +80,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
   - **Point of Contact**: *Name of the individual responsible for business-related matters.*
   - **Contact Number**: *Phone number of the point of contact.*
 
-<center>
 
-![Company details](/img/company-details-custom-.png "Company details")
-
-</center>
 
 ---
 
@@ -125,11 +93,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
   3. Then select the **Connect ID** that ends with "**XshBpq**" on production.
   4. **Note**: Ensure the wallet payments option remains disabled.
 
-<center>
 
-![Connect Account Details](/img/connect-account-details-pos.png "Connect Account Details")
-
-</center>
 
 ---
 
@@ -145,11 +109,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
   2. Select the file.
   3. Click the **UPLOAD PDF** button.
 
-<center>
 
-![Restaurant Logo & Agreement](/img/restaurant-logo-agreement-custom-.png "Restaurant Logo & Agreement")
-
-</center>
 
 ---
 
@@ -157,8 +117,4 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 - After all required details are entered and verified, the **Create** button will be enabled to finalize the restaurant creation process.
 
-<center>
 
-![Adding the restaurant](/img/create-pos-restaurant-custom-.png "Adding the restaurant")
-
-</center>
