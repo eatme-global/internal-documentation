@@ -1,5 +1,5 @@
 ---
-title: How To Create A Restaurant Menu
+title: How To Create A POS Restaurant Menu
 ---
 # Introduction
 This document serves as a detailed guide for creating a new Restaurant Menu
