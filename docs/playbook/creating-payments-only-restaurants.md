@@ -11,11 +11,7 @@ This document serves as a detailed guide for creating a new Payments-Only Restau
 
 To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) and authenticate using your authorized email address and password.
 
-<center>
 
-![Login UI](/img/login-custom-.png "Login UI")
-
-</center>
 
 ---
 
@@ -25,11 +21,7 @@ To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) 
 
 Upon successful authentication, the system will redirect you to the Admin Panel interface.
 
-<center>
 
-![Admin Panel UI](/img/home-custom-.png "Admin Panel UI")
-
-</center>
 
 ---
 
@@ -52,11 +44,7 @@ For latitude and longitude extraction:
 3. Example URL: `https://www.google.com/maps/place/Champion+Hotel/@1.3142633,103.8981148,17.14z/data=!3m1!5s0x31da1810de257e55:0xb672453c5681d682!4m15!1m5!3m4!2zMcKwMTknMDAuOCJOIDEwM8KwNTQnMDEuNyJF!8m2!3d`**1.3168913**`!4d`**103.9004756**`!3m8!1s0x31da1810de3b7785:0xf27e433cae335ed0!5m2!4m1!1i2!8m2!3d1.3147698!4d103.8983936!16s%2Fg%2F11b6b0tj9y?entry=ttu`
 4. The highlighted sections correspond to **Latitude** = 1.3168913 and **Longitude** = 103.9004756. Extract these values accordingly.
 
-<center>
 
-![Restaurant Details](/img/restaurant-details-custom-.png "Restaurant Details")
-
-</center>
 
 ---
 
@@ -77,11 +65,7 @@ Additional details:
 - **Ping Radius** is the distance covered around a pinned location, forming a circular area.
 - **Direct Delivery Radius** specifies the range within which the restaurant delivers using its own logistics.
 
-<center>
 
-![Delivery Radius](/img/delivery-ranges-custom-.png "Delivery Radius")
-
-</center>
 
 ---
 
@@ -89,11 +73,7 @@ Additional details:
 
 Select the **Payments Only** option. This will automatically disable the **Service Types** section, as it is irrelevant for this configuration.
 
-<center>
 
-![Restaurant Type Selection](/img/restaurant-type-custom-.png "Restaurant Type Selection")
-
-</center>
 
 ---
 
@@ -111,11 +91,7 @@ For Web Service Types:
 
 - **Dine-in and Pick Up**
 
-<center>
 
-![Restaurant service types selection](/img/service-types-.png "Restaurant service types selection")
-
-</center>
 
 ---
 
@@ -126,11 +102,7 @@ For Web Service Types:
 
 **Note:** This section is required to be selected even if the payments only option is checked and service types is disabled.
 
-<center>
 
-![Sales Information - Payments Only](/img/sales-information-payments-only.png "Sales Information")
-
-</center>
 
 ---
 
@@ -143,11 +115,7 @@ In the **Tax and Payment Types** section:
 
 **Note:** The **GST**, **Per Order Minimum Charge**, and **Dine-in Service Charges** are predefined and cannot be altered.
 
-<center>
 
-![Tax and payment types](/img/web-service-types-custom-.png "Tax and payment types")
-
-</center>
 
 ---
 
@@ -155,11 +123,7 @@ In the **Tax and Payment Types** section:
 
 This section pertains to digital wallet payment methods. No options need to be enabled; all should remain in their default (off) state.
 
-<center>
 
-![Wallet Types](/img/wallet-charges-custom-.png "Wallet Types")
-
-</center>
 
 ---
 
@@ -167,11 +131,7 @@ This section pertains to digital wallet payment methods. No options need to be e
 
 These sections do not require any modifications, leave all options at their default setting (**No**).
 
-<center>
 
-![Pickup Web Link Options & Delivery Web Link Option](/img/restaurant-pickup-web-link-options-delivery-web-link-options-custom-.png "Pickup Web Link Options & Delivery Web Link Option")
-
-</center>
 
 ---
 
@@ -181,11 +141,7 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** The **Free Tier** billing type is currently not in use.
 
-<center>
 
-![Billing type Details](/img/billing-type-custom-.png "Billing type Details")
-
-</center>
 
 ---
 
@@ -195,11 +151,7 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** The **Online** and **Offline** transaction fixed fees are also determined by the agreement.
 
-<center>
 
-![Transaction charging rates](/img/transaction-charges-custom-.png "Transaction charging rates")
-
-</center>
 
 ---
 
@@ -207,11 +159,7 @@ These sections do not require any modifications, leave all options at their defa
 
 - Fill in the business-specific details provided by the client. These are critical fields, including the **Registered PVS/UEN** (business identification number).
 
-<center>
 
-![Business Details](/img/business-details-custom-.png "Business Details")
-
-</center>
 
 ---
 
@@ -222,11 +170,7 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** Timing can be customized for individual days if necessary.
 
-<center>
 
-![Restaurant Opening Hours](/img/opening-hours-custom-.png "Restaurant Opening Hours")
-
-</center>
 
 ---
 
@@ -237,11 +181,7 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** This feature is useful for restaurants that provide delivery and pickup services and is applicable to all days, and this is set according to the requirements.
 
-<center>
 
-![Restaurant Auto Pause](/img/auto-pause-custom-.png "Restaurant Auto Pause")
-
-</center>
 
 ---
 
@@ -249,11 +189,7 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** This section is optional and can be left in its default state.
 
-<center>
 
-![Cuisine Types and Diet Types](/img/food-and-diet-types-custom-.png "Cuisine Types and Diet Types")
-
-</center>
 
 ---
 
@@ -264,11 +200,7 @@ These sections do not require any modifications, leave all options at their defa
 - The **Facilities** and **Restaurant Management System Link** fields are optional and can remain in their default state.
 - Upload the restaurant's logo, either provided by the client or sourced online. If the logo cannot be sourced online, upload a blank image as a placeholder.
 
-<center>
 
-![Restaurant Images](/img/restaurant-images-custom-.png "Restaurant Images")
-
-</center>
 
 ---
 
@@ -276,11 +208,7 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** This section is optional and can be left in its default state.
 
-<center>
 
-![Receipt Details](/img/receipt-details-custom-.png "Receipt Details")
-
-</center>
 
 ---
 
@@ -288,8 +216,4 @@ These sections do not require any modifications, leave all options at their defa
 
 - Ensure all required fields are populated, then click the **Add** button at the bottom of the receipt details section to finalize the creation of the restaurant.
 
-<center>
 
-![Creating the new restaurant](/img/add-restaurant-custom-.png "Creating the new restaurant")
-
-</center>
