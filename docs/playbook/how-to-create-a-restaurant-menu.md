@@ -34,6 +34,9 @@ This guide provides instructions on creating a structured spreadsheet template f
 ---
 
 ## 3. Template Layout
+- See the image below for a visual representation of the template to better understand its layout.
+
+image
 
 ### 3.1 Category and Sub-Category
 
