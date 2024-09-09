@@ -78,7 +78,7 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ---
 
-## 4. Subsections for Add-Ons and Choices
+### 4. Subsections for Add-Ons and Choices
 
 ### 4.1 Add-Ons Group
 
@@ -98,7 +98,7 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ---
 
-## 5. Adding the Items
+### 5. Adding the Items
 
 To begin adding items, log in to the Backoffice using your account credentials. Once logged in, navigate to the **Menu** section, and then click on **Categories** to start adding the categories.
 
@@ -123,7 +123,7 @@ To begin adding items, log in to the Backoffice using your account credentials. 
 
 ---
 
-## 5.3 Modifiers (Choices / Add-Ons)
+### 5.3 Modifiers (Choices / Add-Ons)
 
 ### 5.3.1 Choices
 
@@ -156,7 +156,7 @@ To begin adding items, log in to the Backoffice using your account credentials. 
 
 ---
 
-## 5.4 Items
+### 5.4 Items
 
 **Note:** Items should be added after all **Categories**, **Sub-categories**, and **Modifiers** have been created.
 
