@@ -2,7 +2,7 @@
 title: How To Create A POS Restaurant Menu
 ---
 # Introduction
-This document serves as a detailed guide for creating a new Restaurant Menu.
+This document serves as a detailed guide for creating a new POS Restaurant Menu.
 
 # 1. Creating a Menu Template for Data Extraction
 This guide provides instructions on creating a structured spreadsheet template for extracting and organizing menu data provided by restaurants. The template is designed to standardize the data collection process, ensuring consistency and completeness. The following sections outline the steps and components of the template.
