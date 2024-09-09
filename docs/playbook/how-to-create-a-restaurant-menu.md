@@ -125,7 +125,7 @@ To begin adding items, log in to the Backoffice using your account credentials. 
 
 ### 5.3 Modifiers (Choices / Add-Ons)
 
-#### 5.3.1 Choices
+### 5.3.1 Choices
 
 - Navigate to the **Choices** section under **Modifiers**.
 - Click the **Create Choices** button.
@@ -172,27 +172,27 @@ To begin adding items, log in to the Backoffice using your account credentials. 
 
 ---
 
-#### 5.4.1 Choices
+### 5.4.1 Choices
 
 - The created choices will appear in a list.
 - Enable the switch for specific items that need choices to be active.
 
 ---
 
-#### 5.4.2 Add-ons
+### 5.4.2 Add-ons
 
 - The created add-ons will appear in a list.
 - Enable the switch for specific items that need add-ons to be active.
 
 ---
 
-#### 5.4.3 Receipt Notes
+### 5.4.3 Receipt Notes
 
 - This section is optional and can be skipped.
 
 ---
 
-#### 5.4.4 Item Image
+### 5.4.4 Item Image
 
 - Upload the image of the item by dragging and dropping it into the designated section.
 - This section can be skipped as it is optional.
