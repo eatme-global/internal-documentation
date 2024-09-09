@@ -11,6 +11,8 @@ This document serves as a detailed guide for creating a new POS Restaurant Menu.
 
 This guide provides instructions on creating a structured spreadsheet template for extracting and organizing menu data provided by restaurants. The template is designed to standardize the data collection process, ensuring consistency and completeness. The following sections outline the steps and components of the template.
 
+---
+
 ### 2.1 Create a New Spreadsheet
 
 - Open your preferred spreadsheet application (e.g., Microsoft Excel, Google Sheets).
@@ -105,6 +107,8 @@ image
 
 To begin adding items, log in to the Backoffice using your account credentials. Once logged in, navigate to the **Menu** section, and then click on **Categories** to start adding the categories.
 
+---
+
 ### 5.1 Categories
 
 - Click the **Create Category** button.
@@ -127,6 +131,12 @@ To begin adding items, log in to the Backoffice using your account credentials. 
 ---
 
 ### 5.3 Modifiers (Choices / Add-Ons)
+
+- **Choices**: Defines optional variations for menu items (e.g., sizes or flavors), with settings for visibility, requirement, and limits.
+
+- **Add-Ons**: Lists additional items that can be paired with menu items (e.g., extra toppings), with settings for visibility and quantity limits.
+
+---
 
 ### 5.3.1 Choices
 
