@@ -1,13 +1,13 @@
 ---
 title: How To Create A POS Restaurant Menu
 ---
-# 1. Introduction
+## 1. Introduction
 
 This document serves as a detailed guide for creating a new POS Restaurant Menu.
 
 ---
 
-# 2. Creating a Menu Template for Data Extraction
+## 2. Creating a Menu Template for Data Extraction
 
 This guide provides instructions on creating a structured spreadsheet template for extracting and organizing menu data provided by restaurants. The template is designed to standardize the data collection process, ensuring consistency and completeness. The following sections outline the steps and components of the template.
 
@@ -33,42 +33,42 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ---
 
-# 3. Template Layout
+## 3. Template Layout
 
-## 3.1 Category and Sub-Category
+### 3.1 Category and Sub-Category
 
 - Create a column for the main category of the menu items. Examples of categories include **Desserts, Beverages, Snacks**, etc.
 - Create a column for any sub-categories under the main category. For example, under Desserts, you might have sub-categories like **Ice Creams, Chocolate Mousse, or Cheesecakes**.
 
 ---
 
-## 3.2 Item Details
+### 3.2 Item Details
 
 - Create a column for entering the name of the menu item.
 - Create a column for providing a brief description of the menu item.
 
 ---
 
-## 3.3 Choices and Add-Ons
+### 3.3 Choices and Add-Ons
 
 - Create a column for listing any choices available for the item, such as different sizes, flavors, or preparation methods.
 - Create a column for listing any available add-ons for the item, such as extra toppings or sides.
 
 ---
 
-## 3.4 Pricing
+### 3.4 Pricing
 
 - Create a column for entering the price of the menu item. Note that some item prices might be zero and will be determined according to the choices selected. For example, a base item might have a price of $0.00, and the final price will depend on the selected choices listed in the Choices column.
 
 ---
 
-## 3.5 Additional Notes
+### 3.5 Additional Notes
 
 - Create a column for entering any additional notes or comments relevant to the item, such as special instructions or dietary information.
 
 ---
 
-## 3.6 Status
+### 3.6 Status
 
 - Create a column for tracking the status of each item using a dropdown menu. The dropdown should have the following values:
   - To Add
@@ -78,9 +78,9 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ---
 
-# 4. Subsections for Add-Ons and Choices
+## 4. Subsections for Add-Ons and Choices
 
-## 4.1 Add-Ons Group
+### 4.1 Add-Ons Group
 
 - Create a subsection within the spreadsheet for different groups of add-ons. This section should include columns for:
   - **Name**
@@ -89,7 +89,7 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ---
 
-## 4.2 Choice Groups
+### 4.2 Choice Groups
 
 - Create separate groups for different choice categories (e.g., sizes, flavors). Each group should have columns for:
   - **Choice**
@@ -98,11 +98,11 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ---
 
-# 5. Adding the Items
+## 5. Adding the Items
 
 To begin adding items, log in to the Backoffice using your account credentials. Once logged in, navigate to the **Menu** section, and then click on **Categories** to start adding the categories.
 
-## 5.1 Categories
+### 5.1 Categories
 
 1. Click the **Create Category** button.
 2. Enter the **Category Name**.
@@ -112,7 +112,7 @@ To begin adding items, log in to the Backoffice using your account credentials. 
 
 ---
 
-## 5.2 Sub-categories
+### 5.2 Sub-categories
 
 1. Navigate to the **Subcategories** section.
 2. Click the **Create Subcategory** button.
@@ -198,5 +198,5 @@ To begin adding items, log in to the Backoffice using your account credentials. 
 - This section can be skipped as it is optional.
 
 ---
-
-Finally, click the **Create** button once all required information is filled out.
+## 6. Final Step
+- Finally, click the **Create** button once all required information is filled out.
