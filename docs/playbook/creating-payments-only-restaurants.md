@@ -81,6 +81,12 @@ Additional details:
 * **Ping Radius** is the distance covered around a pinned location, forming a circular area.
 * **Direct Delivery Radius** specifies the range within which the restaurant delivers using its own logistics.
 
+<center>
+
+![Restaurant Delivery Information](/img/restaurant-delivery-information.png)
+
+</center>
+
 - - -
 
 ### 3.3 Restaurant Type
