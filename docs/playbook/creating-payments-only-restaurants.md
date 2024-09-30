@@ -56,6 +56,12 @@ For latitude and longitude extraction:
 3. Example URL: `https://www.google.com/maps/place/Champion+Hotel/@1.3142633,103.8981148,17.14z/data=!3m1!5s0x31da1810de257e55:0xb672453c5681d682!4m15!1m5!3m4!2zMcKwMTknMDAuOCJOIDEwM8KwNTQnMDEuNyJF!8m2!3d`**1.3168913**`!4d`**103.9004756**`!3m8!1s0x31da1810de3b7785:0xf27e433cae335ed0!5m2!4m1!1i2!8m2!3d1.3147698!4d103.8983936!16s%2Fg%2F11b6b0tj9y?entry=ttu`
 4. The highlighted sections correspond to **Latitude** = 1.3168913 and **Longitude** = 103.9004756. Extract these values accordingly.
 
+<center>
+
+![Payments only restaurant creation form](/img/payments-only-restaurant-creation-form.png)
+
+</center>
+
 - - -
 
 ### 3.2 Configure Parameters
