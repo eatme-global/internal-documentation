@@ -31,7 +31,7 @@ After successfully logging in, you will be redirected to the Admin Panel. To cre
 
 <center>
 
-![Create payments only restaurant navigation](/img/create-payments-only-restaurant-navigation.png)
+![Create payments only restaurant navigation](/img/payments-only-restaurant-creation-form.png)
 
 </center>
 
