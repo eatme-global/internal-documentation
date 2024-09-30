@@ -285,7 +285,8 @@ These sections do not require any modifications, leave all options at their defa
 ## 4. Final Step
 
 * Ensure all required fields are populated, then click the **Add** button at the bottom of the receipt details section to finalize the creation of the restaurant.
-* If the **Add** button is disabled, please review the form and ensure all required fields are filled out correctly.
+
+**Note:** If the **Add** button is disabled, please review the form and ensure all required fields are filled out correctly.
 
 <center>
 
