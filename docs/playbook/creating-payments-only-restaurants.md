@@ -23,7 +23,17 @@ To begin, navigate to the [Admin Panel website](https://admin.eatmeglobal.com/) 
 
 **Note:** Certain fields are non-essential and can be disregarded as outlined in this guide.
 
-Upon successful authentication, the system will redirect you to the Admin Panel interface.
+After successfully logging in, you will be redirected to the Admin Panel. To create a new restaurant, follow these steps:
+
+* Click the hamburger menu on the left side of the screen.
+* From the dropdown, select Restaurants.
+* Click on Create Restaurant to begin the process.
+
+<center>
+
+![Create payments only restaurant navigation](/img/create-payments-only-restaurant-navigation.png)
+
+</center>
 
 - - -
 
