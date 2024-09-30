@@ -141,9 +141,3 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 * After all required details are entered and verified, the **Create** button will be enabled to finalize the restaurant creation process.
 
 **Note:** If the Create button is disabled, please review the form and ensure all required fields are filled out correctly.
-
-<center>
-
-![Creating the POS restaurant](/img/creating-the-pos-restaurant.png)
-
-</center>
