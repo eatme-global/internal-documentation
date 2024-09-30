@@ -124,6 +124,12 @@ For Web Service Types:
 
 **Note:** This section is required to be selected even if the payments only option is checked and service types is disabled.
 
+<center>
+
+![Sales team information](/img/sales-team-information.png)
+
+</center>
+
 - - -
 
 ### 3.6 Tax and Payment Types
@@ -135,11 +141,23 @@ In the **Tax and Payment Types** section:
 
 **Note:** The **GST**, **Per Order Minimum Charge**, and **Dine-in Service Charges** are predefined and cannot be altered.
 
+<center>
+
+![Tax and Payment Types](/img/tax-and-payment-types.png)
+
+</center>
+
 - - -
 
 ### 3.7 Wallet Types
 
 This section pertains to digital wallet payment methods. No options need to be enabled; all should remain in their default (off) state.
+
+<center>
+
+![Wallet Charges](/img/wallet-charges.png)
+
+</center>
 
 - - -
 
