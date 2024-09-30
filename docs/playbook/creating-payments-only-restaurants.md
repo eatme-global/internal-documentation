@@ -187,6 +187,12 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** The **Online** and **Offline** transaction fixed fees are also determined by the agreement.
 
+<center>
+
+![Transaction Charges](/img/transaction-charges.png)
+
+</center>
+
 - - -
 
 ### 3.11 Business Details
