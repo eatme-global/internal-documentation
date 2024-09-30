@@ -27,7 +27,7 @@ After successfully logging in, you will be redirected to the Admin Panel. To cre
 
 * Click the hamburger menu on the left side of the screen.
 * From the dropdown, select Restaurants.
-* Click on Create Restaurant to begin the process.
+* Click on Create Restaurant sub-item to begin the process.
 
 <center>
 
