@@ -115,6 +115,12 @@ For Web Service Types:
 
 * **Dine-in and Pick Up**
 
+<center>
+
+![Service Types](/img/service-types.png)
+
+</center>
+
 - - -
 
 ### 3.5 Sales Team Information
@@ -165,6 +171,12 @@ This section pertains to digital wallet payment methods. No options need to be e
 
 These sections do not require any modifications, leave all options at their default setting (**No**).
 
+<center>
+
+![Pickup Web Link Options & Delivery Web Link Options](/img/pickup-web-link-options-delivery-web-link-options.png)
+
+</center>
+
 - - -
 
 ### 3.9 Billing Type Details
@@ -199,6 +211,12 @@ These sections do not require any modifications, leave all options at their defa
 
 * Fill in the business-specific details provided by the client. These are critical fields, including the **Registered PVS/UEN** (business identification number).
 
+<center>
+
+![Company details](/img/company-details.png)
+
+</center>
+
 - - -
 
 ### 3.12 Restaurant Opening Hours
@@ -207,6 +225,12 @@ These sections do not require any modifications, leave all options at their defa
 * Use the **Set At Once** button to apply the same opening and closing times across all days.
 
 **Note:** Timing can be customized for individual days if necessary.
+
+<center>
+
+![Restaurant Opening Hours](/img/restaurant-opening-hours.png)
+
+</center>
 
 - - -
 
@@ -217,11 +241,23 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** This feature is useful for restaurants that provide delivery and pickup services and is applicable to all days, and this is set according to the requirements.
 
+<center>
+
+![Restaurant Auto Pause](/img/restaurant-auto-pause.png)
+
+</center>
+
 - - -
 
 ### 3.14 Cuisine Types and Diet Types
 
 **Note:** This section is optional and can be left in its default state.
+
+<center>
+
+![Cuisine Types](/img/cuisine-types.png)
+
+</center>
 
 - - -
 
@@ -231,6 +267,12 @@ These sections do not require any modifications, leave all options at their defa
 * The **Tax Ratio** is fixed and cannot be changed.
 * The **Facilities** and **Restaurant Management System Link** fields are optional and can remain in their default state.
 * Upload the restaurant's logo, either provided by the client or sourced online. If the logo cannot be sourced online, upload a blank image as a placeholder.
+
+<center>
+
+![Restaurant Images](/img/restaurant-images.png)
+
+</center>
 
 - - -
 
@@ -243,3 +285,10 @@ These sections do not require any modifications, leave all options at their defa
 ## 4. Final Step
 
 * Ensure all required fields are populated, then click the **Add** button at the bottom of the receipt details section to finalize the creation of the restaurant.
+* If the **Add** button is disabled, please review the form and ensure all required fields are filled out correctly.
+
+<center>
+
+![Creating the restaurant ](/img/creating-the-restaurant.png)
+
+</center>
