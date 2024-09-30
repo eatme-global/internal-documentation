@@ -173,6 +173,12 @@ These sections do not require any modifications, leave all options at their defa
 
 **Note:** The **Free Tier** billing type is currently not in use.
 
+<center>
+
+![Billing type details](/img/billing-type-details.png)
+
+</center>
+
 - - -
 
 ### 3.10 Transaction Charges
