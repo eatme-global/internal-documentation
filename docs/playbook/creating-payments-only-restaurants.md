@@ -93,6 +93,12 @@ Additional details:
 
 Select the **Payments Only** option. This will automatically disable the **Service Types** section, as it is irrelevant for this configuration.
 
+<center>
+
+![Restaurant payment type](/img/restaurant-payment-type.png)
+
+</center>
+
 - - -
 
 ### 3.4 Service Types
