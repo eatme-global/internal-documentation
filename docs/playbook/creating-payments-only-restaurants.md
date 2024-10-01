@@ -195,7 +195,7 @@ These sections do not require any modifications, leave all options at their defa
 
 ### 3.10 Transaction Charges
 
-* Set the values for **Local Cards**, **International Cards**, and **Other Cards** charges. Usually, the **Other Cards** charges are equal to the **International Cards** charges; these values are determined according to the client's agreement.
+* Set the values for **Local Cards**, **International Cards**, and **Other Cards** charges. Usually, the **Other Cards** charges are equal to the **International Cards** charges, these values are determined according to the client's agreement.
 
 **Note:** The **Online** and **Offline** transaction fixed fees are also determined by the agreement.
 
@@ -222,7 +222,7 @@ These sections do not require any modifications, leave all options at their defa
 ### 3.12 Restaurant Opening Hours
 
 * Set the restaurant's active hours, which will be displayed on the website. Use the clock icon or manually enter the time.
-* Use the **Set At Once** button to apply the same opening and closing times across all days.
+* Use the **Set At Once** button to apply the same opening and closing times across all days if necessary.
 
 **Note:** Timing can be customized for individual days if necessary.
 
