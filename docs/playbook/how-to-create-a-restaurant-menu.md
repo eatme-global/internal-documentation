@@ -138,6 +138,12 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglobal.com/)** using your account credentials. Once logged in, navigate to the **Menu** section, and then click on **Categories** to start adding the categories.
 
+<center>
+
+![Navigating to the categories section](/img/adding-categories.png)
+
+</center>
+
 - - -
 
 ### 5.1 Categories
@@ -147,6 +153,12 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
 * The **Description** field is optional and can be skipped if not required.
 * Ensure the **Status** is set to **Available** so it shows up in the POS system.
 * Press the **Create** button to finalize.
+
+<center>
+
+![Creating a category](/img/creating-a-category.png)
+
+</center>
 
 - - -
 
@@ -158,6 +170,12 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
 * The **Description** is optional and can be skipped if not required.
 * Ensure the **Status** is set to **Available** so it shows up in the POS system.
 * Press the **Create** button.
+
+<center>
+
+![Creating a sub-category](/img/creating-a-sub-category.png)
+
+</center>
 
 - - -
 
@@ -182,6 +200,12 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
 * Select the **Minimum** and **Maximum** number of choices from the dropdown.
 * Press the **Create** button to save the choices.
 
+<center>
+
+![Creating a menu choice](/img/creating-a-menu-choice.png)
+
+</center>
+
 - - -
 
 #### 5.3.2 Add-Ons
@@ -196,6 +220,12 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
 * Click the **Add** button after each add-on item, repeating the process.
 * Set the **Maximum Add-on Limit** using the dropdown at the top of the add-ons section.
 * Once all items are added, click the **Create** button to finalize.
+
+<center>
+
+![Creating an Add-on group](/img/creating-an-add-on-group.png)
+
+</center>
 
 - - -
 
