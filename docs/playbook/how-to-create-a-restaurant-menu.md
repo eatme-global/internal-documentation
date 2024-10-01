@@ -40,7 +40,7 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ## 3. Template Layout
 
-* See the image below for a visual representation of the template to better understand its layout.
+* Refer to the image below for a visual representation of the template to better understand its layout.
 
 <center>
 
