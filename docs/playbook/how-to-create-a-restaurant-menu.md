@@ -237,7 +237,7 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
 * Set the **Status** to **Available**.
 * Fill in the **Price** using the menu data.
 
-  * **Note:** Some items may have a price of 0 if the price is based on choices.
+  * **Note:** Some items may have a price of $0 if the price is based on choices.
   * Refer to the menu data extraction process if unsure.
 
 <center>
