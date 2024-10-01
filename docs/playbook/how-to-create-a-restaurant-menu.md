@@ -34,11 +34,7 @@ This guide provides instructions on creating a structured spreadsheet template f
   * **Notes**
   * **Status**
 
-<center>
 
-![Menu setup spreadsheet columns](/img/columns.png)
-
-</center>
 
 - - -
 
