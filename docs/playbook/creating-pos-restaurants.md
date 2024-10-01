@@ -23,7 +23,7 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
 
 * Upon successful authentication, you will be redirected to the Admin Panel interface.
 * To initiate the creation of a POS restaurant, navigate to the **POS** dropdown within the left-hand side navigation menu and select **Restaurants** as shown below.
-* Click on the **Create Restaurant** button. A modal will appear, prompting you to input the necessary restaurant details.
+* Click on the **Create Restaurant** sub-item. A modal will appear, prompting you to input the necessary restaurant details.
 
 <center>
 
