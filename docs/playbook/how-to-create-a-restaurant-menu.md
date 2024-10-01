@@ -79,7 +79,7 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ### 3.5 Additional Notes
 
-* The **Notes** column is for any special instructions, dietary information, or other relevant comments about the item.
+* The **Notes** column is for any special instructions.
 
 - - -
 
