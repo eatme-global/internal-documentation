@@ -53,7 +53,7 @@ This guide provides instructions on creating a structured spreadsheet template f
 ### 3.1 Category and Sub-Category
 
 * Use the **Category** column to specify the main groupings of menu items, such as **Desserts**, **Beverages**, or **Snacks**.
-* The **Sub-Category** column is for further classification under each main category. For example, under **Desserts**, you might list **Ice Creams**, **Chocolate Mousse**, or **Cheesecakes**.
+* The **Sub-Category** column is for further classification under each main category. For example, under **Desserts**, you might list **Ice Creams**, **Mousse**, or **Cheesecakes**.
 
 - - -
 
@@ -73,7 +73,7 @@ This guide provides instructions on creating a structured spreadsheet template f
 
 ### 3.4 Pricing
 
-* In the **Price** column, enter the cost of the menu item. Some items may have a base price of $0.00, with final prices determined by choices or add-ons.
+* In the **Price** column, enter the cost of the menu item. Some items may have a base price of $0.00, with final prices determined by choices.
 
 - - -
 
