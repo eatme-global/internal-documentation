@@ -108,7 +108,8 @@ This document serves as a detailed guide for creating a new POS Restaurant withi
   1. Enter the authorized authentication password provided by EatMe Global.
   2. Once the platform ID field is enabled, select **EatMe Platform Id**.
   3. Then select the **Connect ID** that ends with "**XshBpq**" on production.
-  4. **Note**: Ensure the wallet payments option remains disabled.
+  
+**Note**: Ensure the wallet payments option remains disabled.
 
 <center>
 
