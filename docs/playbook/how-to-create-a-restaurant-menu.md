@@ -282,8 +282,7 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
 
 ### 5.4.4 Item Image
 
-* Upload the image of the item by dragging and dropping it into the designated section.
-* This section can be skipped as it is optional.
+* Upload the image of the item by dragging and dropping it into the designated section or by simply selecting the file, however this section can be skipped as it is optional.
 
 - - -
 
