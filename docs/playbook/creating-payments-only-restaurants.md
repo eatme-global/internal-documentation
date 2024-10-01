@@ -128,7 +128,7 @@ For Web Service Types:
 * Select the **Manager Name** to the restaurant Sales Manager’s name.
 * Select the **Restaurant Category** to the default value - Default: 2
 
-**Note:** This section is required to be selected even if the payments only option is checked and service types is disabled.
+**Note:** This section must be selected even if the "Payments Only" option is checked and "Service Types" is disabled. There may be bugs where the manager and category are set to "undefined," so ensure to update this information after creating the restaurant.
 
 <center>
 
