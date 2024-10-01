@@ -229,7 +229,7 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
 
 - - -
 
-### 5.4 Items
+### 5.4 Adding the Items
 
 **Note:** Items should be added after all **Categories**, **Sub-categories**, and **Modifiers** have been created.
 
@@ -244,6 +244,12 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
   * **Note:** Some items may have a price of 0 if the price is based on choices.
   * Refer to the menu data extraction process if unsure.
 
+<center>
+
+![Creating a menu item](/img/creating-a-menu-item.png)
+
+</center>
+
 - - -
 
 ### 5.4.1 Choices
@@ -251,12 +257,24 @@ To begin adding items, log in to the **[Backoffice](https://backoffice.eatmeglob
 * The created choices will appear in a list.
 * Enable the switch for specific items that need choices to be active.
 
+<center>
+
+![Selecting Choices for items](/img/selecting-choices-for-items.png)
+
+</center>
+
 - - -
 
 ### 5.4.2 Add-ons
 
 * The created add-ons will appear in a list.
 * Enable the switch for specific items that need add-ons to be active.
+
+<center>
+
+![Selecting Add-Ons for items](/img/selecting-add-ons-for-items.png)
+
+</center>
 
 - - -
 
